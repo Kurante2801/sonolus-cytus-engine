@@ -1,0 +1,28 @@
+{
+	"name": "sonolus.js-template-ts-eslint-prettier",
+	"version": "1.1.1",
+	"description": "Sonolus.js Template (TS + ESLint + Prettier)",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"dev:play": "sonolus-cli --dev ./play/sonolus-cli.config.mjs",
+		"dev:tutorial": "sonolus-cli --dev ./tutorial/sonolus-cli.config.mjs",
+		"prebuild": "tsc -p ./lib --noEmit && tsc -p ./shared --noEmit && tsc -p ./play --noEmit && tsc -p ./tutorial --noEmit && eslint --ext .cts ./lib && eslint --ext .mts ./shared && eslint --ext .mts ./play && eslint --ext .mts ./tutorial",
+		"build": "tsc -p ./lib && sonolus-cli --build ./play/sonolus-cli.config.mjs && sonolus-cli --build ./tutorial/sonolus-cli.config.mjs && node ./lib/build.mjs",
+		"type-check": "tsc -p ./shared --noEmit && tsc -p ./play --noEmit && tsc -p ./tutorial --noEmit",
+		"lint": "eslint --ext .mts ./shared && eslint --ext .mts ./play && eslint --ext .mts ./tutorial",
+		"lint-fix": "eslint --ext .mts ./shared --fix && eslint --ext .mts ./play --fix && eslint --ext .mts ./tutorial --fix"
+	},
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "^6.4.0",
+		"@typescript-eslint/parser": "^6.4.0",
+		"eslint": "^8.47.0",
+		"eslint-config-prettier": "^9.0.0",
+		"eslint-plugin-prettier": "^5.0.0",
+		"prettier": "^3.0.2",
+		"prettier-plugin-organize-imports": "^3.2.3",
+		"sonolus-core": "~7.2.0",
+		"sonolus.js": "~9.1.0",
+		"typescript": "~5.1.6"
+	}
+}
