@@ -16,5 +16,6 @@ module.exports = {
 		"prettier/prettier": "error",
 		"no-empty-function": "off",
 		"@typescript-eslint/no-empty-function": "off",
+		"@typescript-eslint/consistent-type-definitions": ["error", "type"],
 	},
 };

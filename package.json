@@ -1,9 +1,16 @@
 {
-	"name": "sonolus.js-template-ts-eslint-prettier",
-	"version": "1.1.1",
-	"description": "Sonolus.js Template (TS + ESLint + Prettier)",
+	"name": "sonolus-cytus-engine",
+	"version": "0.0.2",
+	"description": "Cytus engine for Sonolus",
 	"private": true,
 	"type": "module",
+	"main": "dist/index.cjs",
+	"keywords": [
+		"Sonolus"
+	],
+	"files": [
+		"dist"
+	],
 	"scripts": {
 		"dev:play": "sonolus-cli --dev ./play/sonolus-cli.config.mjs",
 		"dev:tutorial": "sonolus-cli --dev ./tutorial/sonolus-cli.config.mjs",
@@ -14,6 +21,7 @@
 		"lint-fix": "eslint --ext .mts ./shared --fix && eslint --ext .mts ./play --fix && eslint --ext .mts ./tutorial --fix"
 	},
 	"devDependencies": {
+		"@types/node": "^20.5.1",
 		"@typescript-eslint/eslint-plugin": "^6.4.0",
 		"@typescript-eslint/parser": "^6.4.0",
 		"eslint": "^8.47.0",
