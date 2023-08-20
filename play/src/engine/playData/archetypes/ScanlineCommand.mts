@@ -33,9 +33,6 @@ export class ScanlineCommand extends Archetype {
 			return;
 		}
 
-		scanline.y = getY(
-			this.data.direction,
-			Math.unlerp(this.times.start, this.times.end, time.now),
-		);
+		scanline.y = getY(this.data.direction, Math.unlerp(this.times.start, this.times.end, time.now));
 	}
 }

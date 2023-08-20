@@ -107,8 +107,7 @@ const updateComponent = (index: number) => {
 	component.update();
 };
 
-const forEach = (items: readonly unknown[], callback: (index: number) => void) =>
-	items.map(() => callback);
+const forEach = (items: readonly unknown[], callback: (index: number) => void) => items.map(() => callback);
 
 export const tutorial = {
 	preprocess: [preprocess, ...forEach(components, preprocessComponent)],

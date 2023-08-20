@@ -1,4 +1,4 @@
-import { ui } from "../../../../shared/src/engine/configuration/ui.mjs";
+import { ui } from "$shared/configuration/ui.mjs";
 import { options } from "./options.mjs";
 
 export const configuration = {

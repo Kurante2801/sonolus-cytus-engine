@@ -9,6 +9,10 @@
 		"skipLibCheck": true,
 		"exactOptionalPropertyTypes": true,
 		"forceConsistentCasingInFileNames": true,
-		"resolveJsonModule": true
+		"resolveJsonModule": true,
+		"baseUrl": "../",
+		"paths": {
+			"$shared/*": ["shared/src/engine/*"]
+		}
 	}
 }

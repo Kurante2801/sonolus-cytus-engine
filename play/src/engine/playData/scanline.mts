@@ -1,4 +1,4 @@
-import { scanline as shared } from "../../../../shared/src/engine/data/scanline.mjs";
+import { scanline as shared } from "$shared/data/scanline.mjs";
 
 export const scanline = {
 	...shared,

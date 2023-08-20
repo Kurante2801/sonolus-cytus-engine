@@ -1,14 +1,12 @@
-import { Layer } from "../../../../../shared/src/engine/data/layer.mjs";
-import { getGameplayBounds } from "../../../../../shared/src/engine/data/util.mjs";
+import { Layer } from "$shared/data/layer.mjs";
+import { getGameplayBounds } from "$shared/data/util.mjs";
 import { options } from "../../configuration/options.mjs";
 import { scanline } from "../scanline.mjs";
 import { skin } from "../skin.mjs";
 
 export class Stage extends Archetype {
 	globalPreprocess(): void {
-		scanline.bounds.copyFrom(
-			getGameplayBounds(screen.w, screen.h, options.horizontalMargin, options.verticalMargin),
-		);
+		scanline.bounds.copyFrom(getGameplayBounds(screen.w, screen.h, options.horizontalMargin, options.verticalMargin));
 	}
 
 	spawnOrder(): number {
