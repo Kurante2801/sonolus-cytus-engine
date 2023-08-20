@@ -1,5 +1,4 @@
 import { options } from "$shared/configuration/options.mjs";
-import { note } from "$shared/data/note.mjs";
 import { buckets } from "../../buckets.mjs";
 import { Direction } from "../../direction.mjs";
 import { particle } from "../../particle.mjs";
@@ -53,13 +52,5 @@ export class TapNote extends Note {
 	judgeMiss(): void {
 		this.shared.judged = true;
 		super.judgeMiss();
-	}
-
-	get width(): number {
-		return note.radius;
-	}
-
-	get height(): number {
-		return note.radius;
 	}
 }

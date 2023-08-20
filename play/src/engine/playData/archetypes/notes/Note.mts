@@ -24,9 +24,6 @@ export abstract class Note extends Archetype {
 	abstract type: NoteType;
 	abstract bucket: Bucket;
 	abstract windows: JudgmentWindows;
-
-	abstract width: number;
-	abstract height: number;
 	abstract effect: ParticleEffect;
 
 	data = this.defineData({
@@ -122,7 +119,7 @@ export abstract class Note extends Archetype {
 		const alpha = Math.min(1, Math.unlerp(this.times.alpha.start, this.times.alpha.end, time.now));
 		const scale = Math.min(1, Math.unlerp(this.times.scale.start, this.times.scale.end, time.now));
 
-		const layout = Rect.one.scale(this.width * scale, this.height * scale).translate(this.pos.x, this.pos.y);
+		const layout = Rect.one.scale(note.radius * scale, note.radius * scale).translate(this.pos.x, this.pos.y);
 		skin.sprites.draw(this.sprite, layout, this.pos.z, alpha);
 	}
 

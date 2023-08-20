@@ -50,6 +50,8 @@ export const skin = defineSkin({
 		flickUp: "Cytus Flick Up",
 		flickDown: "Cytus Flick Down",
 		flickFallback: SkinSpriteName.NoteHeadGreen,
-		flickArrow: SkinSpriteName.DirectionalMarkerCyan,
+
+		flickArrow: "Cytus Flick Arrow",
+		flickArrowFallback: SkinSpriteName.DirectionalMarkerRed,
 	},
 });
