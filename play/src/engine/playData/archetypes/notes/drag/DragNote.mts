@@ -1,6 +1,6 @@
-import { options } from "$shared/configuration/options.mjs";
 import { Layer } from "$shared/data/layer.mjs";
 import { getAngle } from "$shared/data/util.mjs";
+import { options } from "../../../../configuration/options.mjs";
 import { buckets } from "../../../buckets.mjs";
 import { Direction } from "../../../direction.mjs";
 import { note } from "../../../note.mjs";

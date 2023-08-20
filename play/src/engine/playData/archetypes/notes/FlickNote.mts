@@ -1,5 +1,5 @@
-import { options } from "$shared/configuration/options.mjs";
 import { leftRotated, rightRotated } from "$shared/data/util.mjs";
+import { options } from "../../../configuration/options.mjs";
 import { buckets } from "../../buckets.mjs";
 import { Direction } from "../../direction.mjs";
 import { note } from "../../note.mjs";

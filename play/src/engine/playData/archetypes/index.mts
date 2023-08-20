@@ -1,5 +1,6 @@
 import { DragSegment } from "./DragSegment.mjs";
 import { Initialization } from "./Initialization.mjs";
+import { InputManager } from "./InputManager.mjs";
 import { ScanlineCommand } from "./ScanlineCommand.mjs";
 import { Stage } from "./Stage.mjs";
 import { FlickNote } from "./notes/FlickNote.mjs";
@@ -13,6 +14,7 @@ import { LongHoldStartNote } from "./notes/hold/LongHoldStartNote.mjs";
 
 export const archetypes = defineArchetypes({
 	Initialization,
+	InputManager,
 	Stage,
 	ScanlineCommand,
 
