@@ -89,7 +89,8 @@ export class HoldEndNote extends Note {
 		const layout = Rect.one.scale(note.holdBar, note.holdBar).translate(this.pos.x, this.pos.y);
 		layout.t = Math.lerp(this.pos.y, this.bar.y, tall);
 
-		skin.sprites.holdBar.draw(layout, this.bar.z, alpha);
+		if (skin.sprites.holdBar.exists) skin.sprites.holdBar.draw(layout, this.bar.z, alpha);
+		else skin.sprites.holdBarFallback.draw(layout, this.bar.z, alpha);
 
 		// Draw colored bar indicating progress
 		if (time.now <= this.startTarget) return;
