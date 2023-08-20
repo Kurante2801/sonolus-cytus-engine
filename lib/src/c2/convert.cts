@@ -108,7 +108,21 @@ export function cytus2toLevelData(chart: Cytus2Source): LevelData {
 
 				// Flip direction if is_forward is used
 				if (note.is_forward) data.y = unlerp(page.end_tick, page.start_tick, note.tick);
+
 				if (note.type !== NoteType.TAP_DRAG_HEAD) data.type = dragTypes[note.type];
+				break;
+			case NoteType.HOLD:
+			case NoteType.HOLD_LONG:
+				ref = note.id.toString();
+
+				// Spawn a hold end note that references 'ref'
+				addEntity(note.type == NoteType.HOLD ? "HoldEndNote" : "LongHoldEndNote", {
+					[EngineArchetypeDataName.Beat]: tickToTime(note.tick + note.hold_tick),
+					x: note.x,
+					y: unlerp(page.start_tick, page.end_tick, note.tick + note.hold_tick),
+					direction: page.scan_line_direction,
+					startRef: ref,
+				});
 				break;
 		}
 

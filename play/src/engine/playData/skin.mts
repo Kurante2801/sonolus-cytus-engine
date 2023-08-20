@@ -24,8 +24,8 @@ export const skin = defineSkin({
 		longHoldBarFallback: SkinSpriteName.NoteConnectionYellow,
 
 		holdIndicatorBackground: "Cytus Hold Indicator Background",
-		holdIndicatorUp: "Cytus Hold Indicator Up",
-		holdIndicatorDown: "Cytus Hold Indicator Down",
+		//holdIndicatorUp: "Cytus Hold Indicator Up",
+		//holdIndicatorDown: "Cytus Hold Indicator Down",
 		longHoldIndicator: "Cytus Long Hold Indicator",
 
 		dragHeadUp: "Cytus Drag Up",

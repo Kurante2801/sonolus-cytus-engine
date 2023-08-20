@@ -2622,6 +2622,16 @@
 			]
 		},
 		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 22.617792 },
+				{ "name": "x", "value": 0.20000000298023224 },
+				{ "name": "y", "value": 1 },
+				{ "name": "direction", "value": -1 },
+				{ "name": "startRef", "ref": "91" }
+			]
+		},
+		{
 			"archetype": "HoldStartNote",
 			"data": [
 				{ "name": "#BEAT", "value": 21.675383999999998 },
@@ -2629,6 +2639,17 @@
 				{ "name": "y", "value": 0.25 },
 				{ "name": "direction", "value": -1 },
 				{ "name": "speed", "value": 1 }
+			],
+			"ref": "91"
+		},
+		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 22.617792 },
+				{ "name": "x", "value": 0.800000011920929 },
+				{ "name": "y", "value": 1 },
+				{ "name": "direction", "value": -1 },
+				{ "name": "startRef", "ref": "92" }
 			]
 		},
 		{
@@ -2639,7 +2660,8 @@
 				{ "name": "y", "value": 0.25 },
 				{ "name": "direction", "value": -1 },
 				{ "name": "speed", "value": 1 }
-			]
+			],
+			"ref": "92"
 		},
 		{
 			"archetype": "TapNote",
@@ -3142,6 +3164,16 @@
 			]
 		},
 		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 30.62826 },
+				{ "name": "x", "value": 0.3499999940395355 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": 1 },
+				{ "name": "startRef", "ref": "140" }
+			]
+		},
+		{
 			"archetype": "HoldStartNote",
 			"data": [
 				{ "name": "#BEAT", "value": 30.157055999999997 },
@@ -3149,7 +3181,8 @@
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": 1 },
 				{ "name": "speed", "value": 1.591667303333588 }
-			]
+			],
+			"ref": "140"
 		},
 		{
 			"archetype": "TapNote",
@@ -3172,6 +3205,16 @@
 			]
 		},
 		{
+			"archetype": "LongHoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 32.041872 },
+				{ "name": "x", "value": 0.5 },
+				{ "name": "y", "value": 2 },
+				{ "name": "direction", "value": -1 },
+				{ "name": "startRef", "ref": "143" }
+			]
+		},
+		{
 			"archetype": "LongHoldStartNote",
 			"data": [
 				{ "name": "#BEAT", "value": 31.256531999999996 },
@@ -3179,7 +3222,8 @@
 				{ "name": "y", "value": 0.75 },
 				{ "name": "direction", "value": -1 },
 				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+			],
+			"ref": "143"
 		},
 		{
 			"archetype": "DragNote",
@@ -3712,6 +3756,16 @@
 			]
 		},
 		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 38.324592 },
+				{ "name": "x", "value": 0.3499999940395355 },
+				{ "name": "y", "value": 1 },
+				{ "name": "direction", "value": 1 },
+				{ "name": "startRef", "ref": "191" }
+			]
+		},
+		{
 			"archetype": "HoldStartNote",
 			"data": [
 				{ "name": "#BEAT", "value": 37.69632 },
@@ -3719,7 +3773,8 @@
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": 1 },
 				{ "name": "speed", "value": 1.591667303333588 }
-			]
+			],
+			"ref": "191"
 		},
 		{
 			"archetype": "TapNote",
@@ -3742,6 +3797,16 @@
 			]
 		},
 		{
+			"archetype": "LongHoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 39.581136 },
+				{ "name": "x", "value": 0.800000011920929 },
+				{ "name": "y", "value": 2 },
+				{ "name": "direction", "value": -1 },
+				{ "name": "startRef", "ref": "194" }
+			]
+		},
+		{
 			"archetype": "LongHoldStartNote",
 			"data": [
 				{ "name": "#BEAT", "value": 38.795796 },
@@ -3749,7 +3814,8 @@
 				{ "name": "y", "value": 0.75 },
 				{ "name": "direction", "value": -1 },
 				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+			],
+			"ref": "194"
 		},
 		{
 			"archetype": "TapNote",
@@ -3772,6 +3838,16 @@
 			]
 		},
 		{
+			"archetype": "LongHoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 41.465952 },
+				{ "name": "x", "value": 0.5 },
+				{ "name": "y", "value": 3 },
+				{ "name": "direction", "value": -1 },
+				{ "name": "startRef", "ref": "197" }
+			]
+		},
+		{
 			"archetype": "LongHoldStartNote",
 			"data": [
 				{ "name": "#BEAT", "value": 40.052339999999994 },
@@ -3779,6 +3855,17 @@
 				{ "name": "y", "value": 0.75 },
 				{ "name": "direction", "value": -1 },
 				{ "name": "speed", "value": 1.5916673033335877 }
+			],
+			"ref": "197"
+		},
+		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 43.350767999999995 },
+				{ "name": "x", "value": 0.6499999761581421 },
+				{ "name": "y", "value": 1 },
+				{ "name": "direction", "value": 1 },
+				{ "name": "startRef", "ref": "198" }
 			]
 		},
 		{
@@ -3789,7 +3876,8 @@
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": 1 },
 				{ "name": "speed", "value": 1.591667303333588 }
-			]
+			],
+			"ref": "198"
 		},
 		{
 			"archetype": "FlickNote",
@@ -3812,6 +3900,16 @@
 			]
 		},
 		{
+			"archetype": "LongHoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 44.293175999999995 },
+				{ "name": "x", "value": 0.8999999761581421 },
+				{ "name": "y", "value": 1.5 },
+				{ "name": "direction", "value": -1 },
+				{ "name": "startRef", "ref": "201" }
+			]
+		},
+		{
 			"archetype": "LongHoldStartNote",
 			"data": [
 				{ "name": "#BEAT", "value": 43.664904 },
@@ -3819,7 +3917,8 @@
 				{ "name": "y", "value": 0.5 },
 				{ "name": "direction", "value": -1 },
 				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+			],
+			"ref": "201"
 		},
 		{
 			"archetype": "FlickNote",
@@ -3832,6 +3931,16 @@
 			]
 		},
 		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 45.235584 },
+				{ "name": "x", "value": 0.25 },
+				{ "name": "y", "value": 1 },
+				{ "name": "direction", "value": -1 },
+				{ "name": "startRef", "ref": "203" }
+			]
+		},
+		{
 			"archetype": "HoldStartNote",
 			"data": [
 				{ "name": "#BEAT", "value": 44.607312 },
@@ -3839,7 +3948,8 @@
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": -1 },
 				{ "name": "speed", "value": 1.591667303333588 }
-			]
+			],
+			"ref": "203"
 		},
 		{
 			"archetype": "FlickNote",
@@ -3892,6 +4002,16 @@
 			]
 		},
 		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 47.1204 },
+				{ "name": "x", "value": 0.10000000149011612 },
+				{ "name": "y", "value": 1 },
+				{ "name": "direction", "value": 1 },
+				{ "name": "startRef", "ref": "209" }
+			]
+		},
+		{
 			"archetype": "HoldStartNote",
 			"data": [
 				{ "name": "#BEAT", "value": 46.492127999999994 },
@@ -3899,7 +4019,8 @@
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": 1 },
 				{ "name": "speed", "value": 1.591667303333588 }
-			]
+			],
+			"ref": "209"
 		},
 		{
 			"archetype": "FlickNote",
@@ -3912,6 +4033,16 @@
 			]
 		},
 		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 47.74867199999999 },
+				{ "name": "x", "value": 0.8999999761581421 },
+				{ "name": "y", "value": 1 },
+				{ "name": "direction", "value": -1 },
+				{ "name": "startRef", "ref": "211" }
+			]
+		},
+		{
 			"archetype": "HoldStartNote",
 			"data": [
 				{ "name": "#BEAT", "value": 47.1204 },
@@ -3919,7 +4050,8 @@
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": -1 },
 				{ "name": "speed", "value": 1.591667303333588 }
-			]
+			],
+			"ref": "211"
 		},
 		{
 			"archetype": "FlickNote",
@@ -3932,6 +4064,16 @@
 			]
 		},
 		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 48.376944 },
+				{ "name": "x", "value": 0.3499999940395355 },
+				{ "name": "y", "value": 1 },
+				{ "name": "direction", "value": 1 },
+				{ "name": "startRef", "ref": "213" }
+			]
+		},
+		{
 			"archetype": "HoldStartNote",
 			"data": [
 				{ "name": "#BEAT", "value": 47.74867199999999 },
@@ -3939,7 +4081,8 @@
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": 1 },
 				{ "name": "speed", "value": 1.591667303333588 }
-			]
+			],
+			"ref": "213"
 		},
 		{
 			"archetype": "FlickNote",
@@ -3952,6 +4095,16 @@
 			]
 		},
 		{
+			"archetype": "LongHoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 49.319351999999995 },
+				{ "name": "x", "value": 0.10000000149011612 },
+				{ "name": "y", "value": 1.5 },
+				{ "name": "direction", "value": -1 },
+				{ "name": "startRef", "ref": "215" }
+			]
+		},
+		{
 			"archetype": "LongHoldStartNote",
 			"data": [
 				{ "name": "#BEAT", "value": 48.69107999999999 },
@@ -3959,7 +4112,8 @@
 				{ "name": "y", "value": 0.5 },
 				{ "name": "direction", "value": -1 },
 				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+			],
+			"ref": "215"
 		},
 		{
 			"archetype": "FlickNote",
@@ -3982,6 +4136,16 @@
 			]
 		},
 		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 50.261759999999995 },
+				{ "name": "x", "value": 0.75 },
+				{ "name": "y", "value": 1 },
+				{ "name": "direction", "value": -1 },
+				{ "name": "startRef", "ref": "218" }
+			]
+		},
+		{
 			"archetype": "HoldStartNote",
 			"data": [
 				{ "name": "#BEAT", "value": 49.63348799999999 },
@@ -3989,7 +4153,8 @@
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": -1 },
 				{ "name": "speed", "value": 1.591667303333588 }
-			]
+			],
+			"ref": "218"
 		},
 		{
 			"archetype": "FlickNote",
@@ -4042,6 +4207,16 @@
 			]
 		},
 		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 52.146575999999996 },
+				{ "name": "x", "value": 0.8999999761581421 },
+				{ "name": "y", "value": 1 },
+				{ "name": "direction", "value": 1 },
+				{ "name": "startRef", "ref": "224" }
+			]
+		},
+		{
 			"archetype": "HoldStartNote",
 			"data": [
 				{ "name": "#BEAT", "value": 51.51830399999999 },
@@ -4049,7 +4224,8 @@
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": 1 },
 				{ "name": "speed", "value": 1.591667303333588 }
-			]
+			],
+			"ref": "224"
 		},
 		{
 			"archetype": "FlickNote",
@@ -4062,6 +4238,16 @@
 			]
 		},
 		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 52.77484799999999 },
+				{ "name": "x", "value": 0.10000000149011612 },
+				{ "name": "y", "value": 1 },
+				{ "name": "direction", "value": -1 },
+				{ "name": "startRef", "ref": "226" }
+			]
+		},
+		{
 			"archetype": "HoldStartNote",
 			"data": [
 				{ "name": "#BEAT", "value": 52.146575999999996 },
@@ -4069,7 +4255,8 @@
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": -1 },
 				{ "name": "speed", "value": 1.591667303333588 }
-			]
+			],
+			"ref": "226"
 		},
 		{
 			"archetype": "FlickNote",
@@ -4082,6 +4269,16 @@
 			]
 		},
 		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 53.403119999999994 },
+				{ "name": "x", "value": 0.6499999761581421 },
+				{ "name": "y", "value": 1 },
+				{ "name": "direction", "value": 1 },
+				{ "name": "startRef", "ref": "228" }
+			]
+		},
+		{
 			"archetype": "HoldStartNote",
 			"data": [
 				{ "name": "#BEAT", "value": 52.77484799999999 },
@@ -4089,7 +4286,8 @@
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": 1 },
 				{ "name": "speed", "value": 1.591667303333588 }
-			]
+			],
+			"ref": "228"
 		},
 		{
 			"archetype": "FlickNote",
@@ -4102,6 +4300,16 @@
 			]
 		},
 		{
+			"archetype": "LongHoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 54.34552800000001 },
+				{ "name": "x", "value": 0.10000000149011612 },
+				{ "name": "y", "value": 1.5 },
+				{ "name": "direction", "value": -1 },
+				{ "name": "startRef", "ref": "230" }
+			]
+		},
+		{
 			"archetype": "LongHoldStartNote",
 			"data": [
 				{ "name": "#BEAT", "value": 53.717256 },
@@ -4109,7 +4317,8 @@
 				{ "name": "y", "value": 0.5 },
 				{ "name": "direction", "value": -1 },
 				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+			],
+			"ref": "230"
 		},
 		{
 			"archetype": "FlickNote",
@@ -4132,6 +4341,16 @@
 			]
 		},
 		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 55.287935999999995 },
+				{ "name": "x", "value": 0.25 },
+				{ "name": "y", "value": 1 },
+				{ "name": "direction", "value": -1 },
+				{ "name": "startRef", "ref": "233" }
+			]
+		},
+		{
 			"archetype": "HoldStartNote",
 			"data": [
 				{ "name": "#BEAT", "value": 54.659664 },
@@ -4139,7 +4358,8 @@
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": -1 },
 				{ "name": "speed", "value": 1.591667303333588 }
-			]
+			],
+			"ref": "233"
 		},
 		{
 			"archetype": "FlickNote",
@@ -4172,6 +4392,16 @@
 			]
 		},
 		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 56.54447999999999 },
+				{ "name": "x", "value": 0.6000000238418579 },
+				{ "name": "y", "value": 1 },
+				{ "name": "direction", "value": -1 },
+				{ "name": "startRef", "ref": "237" }
+			]
+		},
+		{
 			"archetype": "HoldStartNote",
 			"data": [
 				{ "name": "#BEAT", "value": 55.916208 },
@@ -4179,7 +4409,8 @@
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": -1 },
 				{ "name": "speed", "value": 1.591667303333588 }
-			]
+			],
+			"ref": "237"
 		},
 		{
 			"archetype": "FlickNote",
@@ -4202,6 +4433,16 @@
 			]
 		},
 		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 57.801024 },
+				{ "name": "x", "value": 0.10000000149011612 },
+				{ "name": "y", "value": 1 },
+				{ "name": "direction", "value": -1 },
+				{ "name": "startRef", "ref": "240" }
+			]
+		},
+		{
 			"archetype": "HoldStartNote",
 			"data": [
 				{ "name": "#BEAT", "value": 57.172751999999996 },
@@ -4209,7 +4450,8 @@
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": -1 },
 				{ "name": "speed", "value": 1.591667303333588 }
-			]
+			],
+			"ref": "240"
 		},
 		{
 			"archetype": "FlickNote",
@@ -4282,6 +4524,16 @@
 			]
 		},
 		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 60.94238399999999 },
+				{ "name": "x", "value": 0.6499999761581421 },
+				{ "name": "y", "value": 1 },
+				{ "name": "direction", "value": 1 },
+				{ "name": "startRef", "ref": "248" }
+			]
+		},
+		{
 			"archetype": "HoldStartNote",
 			"data": [
 				{ "name": "#BEAT", "value": 60.314111999999994 },
@@ -4289,7 +4541,8 @@
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": 1 },
 				{ "name": "speed", "value": 1.591667303333588 }
-			]
+			],
+			"ref": "248"
 		},
 		{
 			"archetype": "FlickNote",
@@ -4312,6 +4565,16 @@
 			]
 		},
 		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 62.198928 },
+				{ "name": "x", "value": 0.3499999940395355 },
+				{ "name": "y", "value": 1 },
+				{ "name": "direction", "value": 1 },
+				{ "name": "startRef", "ref": "251" }
+			]
+		},
+		{
 			"archetype": "HoldStartNote",
 			"data": [
 				{ "name": "#BEAT", "value": 61.570656 },
@@ -4319,7 +4582,8 @@
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": 1 },
 				{ "name": "speed", "value": 1.591667303333588 }
-			]
+			],
+			"ref": "251"
 		},
 		{
 			"archetype": "FlickNote",
@@ -4372,6 +4636,16 @@
 			]
 		},
 		{
+			"archetype": "LongHoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 64.71201599999999 },
+				{ "name": "x", "value": 0.5 },
+				{ "name": "y", "value": 1.5 },
+				{ "name": "direction", "value": 1 },
+				{ "name": "startRef", "ref": "257" }
+			]
+		},
+		{
 			"archetype": "LongHoldStartNote",
 			"data": [
 				{ "name": "#BEAT", "value": 62.8272 },
@@ -4379,6 +4653,17 @@
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": 1 },
 				{ "name": "speed", "value": 1.591667303333588 }
+			],
+			"ref": "257"
+		},
+		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 65.96856 },
+				{ "name": "x", "value": 0.30000001192092896 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": 1 },
+				{ "name": "startRef", "ref": "258" }
 			]
 		},
 		{
@@ -4389,7 +4674,8 @@
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": 1 },
 				{ "name": "speed", "value": 1 }
-			]
+			],
+			"ref": "258"
 		},
 		{
 			"archetype": "TapNote",
@@ -4402,6 +4688,16 @@
 			]
 		},
 		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 67.225104 },
+				{ "name": "x", "value": 0.8500000238418579 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": -1 },
+				{ "name": "startRef", "ref": "260" }
+			]
+		},
+		{
 			"archetype": "HoldStartNote",
 			"data": [
 				{ "name": "#BEAT", "value": 66.59683199999999 },
@@ -4409,7 +4705,8 @@
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": -1 },
 				{ "name": "speed", "value": 1 }
-			]
+			],
+			"ref": "260"
 		},
 		{
 			"archetype": "TapNote",
@@ -4432,6 +4729,16 @@
 			]
 		},
 		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 68.48164799999999 },
+				{ "name": "x", "value": 0.699999988079071 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": 1 },
+				{ "name": "startRef", "ref": "263" }
+			]
+		},
+		{
 			"archetype": "HoldStartNote",
 			"data": [
 				{ "name": "#BEAT", "value": 67.853376 },
@@ -4439,7 +4746,8 @@
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": 1 },
 				{ "name": "speed", "value": 1 }
-			]
+			],
+			"ref": "263"
 		},
 		{
 			"archetype": "FlickNote",
@@ -4472,6 +4780,16 @@
 			]
 		},
 		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 70.994736 },
+				{ "name": "x", "value": 0.30000001192092896 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": 1 },
+				{ "name": "startRef", "ref": "267" }
+			]
+		},
+		{
 			"archetype": "HoldStartNote",
 			"data": [
 				{ "name": "#BEAT", "value": 70.366464 },
@@ -4479,7 +4797,8 @@
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": 1 },
 				{ "name": "speed", "value": 1 }
-			]
+			],
+			"ref": "267"
 		},
 		{
 			"archetype": "TapNote",
@@ -4502,6 +4821,16 @@
 			]
 		},
 		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 72.25128 },
+				{ "name": "x", "value": 0.8500000238418579 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": -1 },
+				{ "name": "startRef", "ref": "270" }
+			]
+		},
+		{
 			"archetype": "HoldStartNote",
 			"data": [
 				{ "name": "#BEAT", "value": 71.623008 },
@@ -4509,7 +4838,8 @@
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": -1 },
 				{ "name": "speed", "value": 1 }
-			]
+			],
+			"ref": "270"
 		},
 		{
 			"archetype": "FlickNote",
@@ -4522,6 +4852,16 @@
 			]
 		},
 		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 73.507824 },
+				{ "name": "x", "value": 0.3499999940395355 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": 1 },
+				{ "name": "startRef", "ref": "272" }
+			]
+		},
+		{
 			"archetype": "HoldStartNote",
 			"data": [
 				{ "name": "#BEAT", "value": 72.879552 },
@@ -4529,7 +4869,8 @@
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": 1 },
 				{ "name": "speed", "value": 1 }
-			]
+			],
+			"ref": "272"
 		},
 		{
 			"archetype": "TapNote",
@@ -4552,6 +4893,16 @@
 			]
 		},
 		{
+			"archetype": "LongHoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 74.450232 },
+				{ "name": "x", "value": 0.25 },
+				{ "name": "y", "value": 1.25 },
+				{ "name": "direction", "value": 1 },
+				{ "name": "startRef", "ref": "275" }
+			]
+		},
+		{
 			"archetype": "LongHoldStartNote",
 			"data": [
 				{ "name": "#BEAT", "value": 73.82196 },
@@ -4559,7 +4910,8 @@
 				{ "name": "y", "value": 0.75 },
 				{ "name": "direction", "value": 1 },
 				{ "name": "speed", "value": 1 }
-			]
+			],
+			"ref": "275"
 		},
 		{
 			"archetype": "TapNote",
@@ -4602,6 +4954,16 @@
 			]
 		},
 		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 76.33504799999999 },
+				{ "name": "x", "value": 0.6499999761581421 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": 1 },
+				{ "name": "startRef", "ref": "280" }
+			]
+		},
+		{
 			"archetype": "HoldStartNote",
 			"data": [
 				{ "name": "#BEAT", "value": 75.39264 },
@@ -4609,7 +4971,8 @@
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": 1 },
 				{ "name": "speed", "value": 1 }
-			]
+			],
+			"ref": "280"
 		},
 		{
 			"archetype": "TapNote",
@@ -4652,6 +5015,16 @@
 			]
 		},
 		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 77.591592 },
+				{ "name": "x", "value": 0.800000011920929 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": -1 },
+				{ "name": "startRef", "ref": "285" }
+			]
+		},
+		{
 			"archetype": "HoldStartNote",
 			"data": [
 				{ "name": "#BEAT", "value": 76.649184 },
@@ -4659,7 +5032,8 @@
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": -1 },
 				{ "name": "speed", "value": 1 }
-			]
+			],
+			"ref": "285"
 		},
 		{
 			"archetype": "TapNote",
@@ -4892,6 +5266,16 @@
 			]
 		},
 		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 81.36122399999999 },
+				{ "name": "x", "value": 0.6499999761581421 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": 1 },
+				{ "name": "startRef", "ref": "309" }
+			]
+		},
+		{
 			"archetype": "HoldStartNote",
 			"data": [
 				{ "name": "#BEAT", "value": 80.418816 },
@@ -4899,7 +5283,8 @@
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": 1 },
 				{ "name": "speed", "value": 1.591667303333588 }
-			]
+			],
+			"ref": "309"
 		},
 		{
 			"archetype": "FlickNote",
@@ -5788,6 +6173,16 @@
 			]
 		},
 		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 85.60206 },
+				{ "name": "x", "value": 0.550000011920929 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": 1 },
+				{ "name": "startRef", "ref": "380" }
+			]
+		},
+		{
 			"archetype": "HoldStartNote",
 			"data": [
 				{ "name": "#BEAT", "value": 85.44499199999998 },
@@ -5795,6 +6190,17 @@
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": 1 },
 				{ "name": "speed", "value": 1.591667303333588 }
+			],
+			"ref": "380"
+		},
+		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 85.916196 },
+				{ "name": "x", "value": 0.25 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": 1 },
+				{ "name": "startRef", "ref": "381" }
 			]
 		},
 		{
@@ -5805,7 +6211,8 @@
 				{ "name": "y", "value": 0.5 },
 				{ "name": "direction", "value": 1 },
 				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+			],
+			"ref": "381"
 		},
 		{
 			"archetype": "TapNote",
@@ -7141,6 +7548,16 @@
 			"ref": "487"
 		},
 		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 90.628236 },
+				{ "name": "x", "value": 0.30000001192092896 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": 1 },
+				{ "name": "startRef", "ref": "488" }
+			]
+		},
+		{
 			"archetype": "HoldStartNote",
 			"data": [
 				{ "name": "#BEAT", "value": 90.471168 },
@@ -7148,6 +7565,17 @@
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": 1 },
 				{ "name": "speed", "value": 1.591667303333588 }
+			],
+			"ref": "488"
+		},
+		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 90.628236 },
+				{ "name": "x", "value": 0.699999988079071 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": 1 },
+				{ "name": "startRef", "ref": "489" }
 			]
 		},
 		{
@@ -7158,6 +7586,17 @@
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": 1 },
 				{ "name": "speed", "value": 1.591667303333588 }
+			],
+			"ref": "489"
+		},
+		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 90.94237199999999 },
+				{ "name": "x", "value": 0.4000000059604645 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": 1 },
+				{ "name": "startRef", "ref": "490" }
 			]
 		},
 		{
@@ -7168,6 +7607,17 @@
 				{ "name": "y", "value": 0.5 },
 				{ "name": "direction", "value": 1 },
 				{ "name": "speed", "value": 1.5916673033335877 }
+			],
+			"ref": "490"
+		},
+		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 90.94237199999999 },
+				{ "name": "x", "value": 0.6000000238418579 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": 1 },
+				{ "name": "startRef", "ref": "491" }
 			]
 		},
 		{
@@ -7178,7 +7628,8 @@
 				{ "name": "y", "value": 0.5 },
 				{ "name": "direction", "value": 1 },
 				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+			],
+			"ref": "491"
 		},
 		{
 			"archetype": "FlickNote",
@@ -7191,6 +7642,16 @@
 			]
 		},
 		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 91.57064399999999 },
+				{ "name": "x", "value": 0.20000000298023224 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": -1 },
+				{ "name": "startRef", "ref": "493" }
+			]
+		},
+		{
 			"archetype": "HoldStartNote",
 			"data": [
 				{ "name": "#BEAT", "value": 91.41357599999999 },
@@ -7198,6 +7659,17 @@
 				{ "name": "y", "value": 0.5 },
 				{ "name": "direction", "value": -1 },
 				{ "name": "speed", "value": 1.5916673033335877 }
+			],
+			"ref": "493"
+		},
+		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 91.57064399999999 },
+				{ "name": "x", "value": 0.800000011920929 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": -1 },
+				{ "name": "startRef", "ref": "494" }
 			]
 		},
 		{
@@ -7208,7 +7680,8 @@
 				{ "name": "y", "value": 0.5 },
 				{ "name": "direction", "value": -1 },
 				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+			],
+			"ref": "494"
 		},
 		{
 			"archetype": "TapNote",
@@ -7231,6 +7704,16 @@
 			]
 		},
 		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 92.041848 },
+				{ "name": "x", "value": 0.3499999940395355 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": 1 },
+				{ "name": "startRef", "ref": "497" }
+			]
+		},
+		{
 			"archetype": "HoldStartNote",
 			"data": [
 				{ "name": "#BEAT", "value": 91.88478 },
@@ -7238,6 +7721,17 @@
 				{ "name": "y", "value": 0.25 },
 				{ "name": "direction", "value": 1 },
 				{ "name": "speed", "value": 1.591667303333588 }
+			],
+			"ref": "497"
+		},
+		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 92.041848 },
+				{ "name": "x", "value": 0.6499999761581421 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": 1 },
+				{ "name": "startRef", "ref": "498" }
 			]
 		},
 		{
@@ -7248,7 +7742,8 @@
 				{ "name": "y", "value": 0.25 },
 				{ "name": "direction", "value": 1 },
 				{ "name": "speed", "value": 1.591667303333588 }
-			]
+			],
+			"ref": "498"
 		},
 		{
 			"archetype": "TapNote",
@@ -8111,6 +8606,16 @@
 			"ref": "566"
 		},
 		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 95.654412 },
+				{ "name": "x", "value": 0.44999998807907104 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": 1 },
+				{ "name": "startRef", "ref": "567" }
+			]
+		},
+		{
 			"archetype": "HoldStartNote",
 			"data": [
 				{ "name": "#BEAT", "value": 95.49734399999998 },
@@ -8118,7 +8623,8 @@
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": 1 },
 				{ "name": "speed", "value": 1.591667303333588 }
-			]
+			],
+			"ref": "567"
 		},
 		{
 			"archetype": "TapNote",
@@ -8141,6 +8647,16 @@
 			]
 		},
 		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 95.968548 },
+				{ "name": "x", "value": 0.75 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": 1 },
+				{ "name": "startRef", "ref": "570" }
+			]
+		},
+		{
 			"archetype": "HoldStartNote",
 			"data": [
 				{ "name": "#BEAT", "value": 95.81148 },
@@ -8148,7 +8664,8 @@
 				{ "name": "y", "value": 0.5 },
 				{ "name": "direction", "value": 1 },
 				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+			],
+			"ref": "570"
 		},
 		{
 			"archetype": "FlickNote",
@@ -9354,6 +9871,16 @@
 			]
 		},
 		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 106.492104 },
+				{ "name": "x", "value": 0.3499999940395355 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": 1 },
+				{ "name": "startRef", "ref": "673" }
+			]
+		},
+		{
 			"archetype": "HoldStartNote",
 			"data": [
 				{ "name": "#BEAT", "value": 105.54969599999998 },
@@ -9361,7 +9888,8 @@
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": 1 },
 				{ "name": "speed", "value": 1 }
-			]
+			],
+			"ref": "673"
 		},
 		{
 			"archetype": "TapNote",
@@ -9374,6 +9902,16 @@
 			]
 		},
 		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 107.74864799999999 },
+				{ "name": "x", "value": 0.10000000149011612 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": -1 },
+				{ "name": "startRef", "ref": "675" }
+			]
+		},
+		{
 			"archetype": "HoldStartNote",
 			"data": [
 				{ "name": "#BEAT", "value": 106.80623999999999 },
@@ -9381,7 +9919,8 @@
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": -1 },
 				{ "name": "speed", "value": 1 }
-			]
+			],
+			"ref": "675"
 		},
 		{
 			"archetype": "TapNote",
@@ -9404,6 +9943,16 @@
 			]
 		},
 		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 109.005192 },
+				{ "name": "x", "value": 0.6499999761581421 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": 1 },
+				{ "name": "startRef", "ref": "678" }
+			]
+		},
+		{
 			"archetype": "HoldStartNote",
 			"data": [
 				{ "name": "#BEAT", "value": 108.062784 },
@@ -9411,7 +9960,8 @@
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": 1 },
 				{ "name": "speed", "value": 1 }
-			]
+			],
+			"ref": "678"
 		},
 		{
 			"archetype": "TapNote",
@@ -9424,6 +9974,16 @@
 			]
 		},
 		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 109.790532 },
+				{ "name": "x", "value": 0.8999999761581421 },
+				{ "name": "y", "value": 0.375 },
+				{ "name": "direction", "value": -1 },
+				{ "name": "startRef", "ref": "680" }
+			]
+		},
+		{
 			"archetype": "HoldStartNote",
 			"data": [
 				{ "name": "#BEAT", "value": 109.319328 },
@@ -9431,7 +9991,8 @@
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": -1 },
 				{ "name": "speed", "value": 1 }
-			]
+			],
+			"ref": "680"
 		},
 		{
 			"archetype": "TapNote",
@@ -9444,6 +10005,16 @@
 			]
 		},
 		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 110.41880399999998 },
+				{ "name": "x", "value": 0.8500000238418579 },
+				{ "name": "y", "value": 0.875 },
+				{ "name": "direction", "value": -1 },
+				{ "name": "startRef", "ref": "682" }
+			]
+		},
+		{
 			"archetype": "HoldStartNote",
 			"data": [
 				{ "name": "#BEAT", "value": 109.9476 },
@@ -9451,7 +10022,8 @@
 				{ "name": "y", "value": 0.5 },
 				{ "name": "direction", "value": -1 },
 				{ "name": "speed", "value": 1 }
-			]
+			],
+			"ref": "682"
 		},
 		{
 			"archetype": "TapNote",
@@ -9484,6 +10056,16 @@
 			]
 		},
 		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 111.047076 },
+				{ "name": "x", "value": 0.6000000238418579 },
+				{ "name": "y", "value": 0.375 },
+				{ "name": "direction", "value": 1 },
+				{ "name": "startRef", "ref": "686" }
+			]
+		},
+		{
 			"archetype": "HoldStartNote",
 			"data": [
 				{ "name": "#BEAT", "value": 110.57587199999999 },
@@ -9491,7 +10073,8 @@
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": 1 },
 				{ "name": "speed", "value": 1 }
-			]
+			],
+			"ref": "686"
 		},
 		{
 			"archetype": "TapNote",
@@ -9504,6 +10087,16 @@
 			]
 		},
 		{
+			"archetype": "LongHoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 111.98948399999999 },
+				{ "name": "x", "value": 0.699999988079071 },
+				{ "name": "y", "value": 1.125 },
+				{ "name": "direction", "value": 1 },
+				{ "name": "startRef", "ref": "688" }
+			]
+		},
+		{
 			"archetype": "LongHoldStartNote",
 			"data": [
 				{ "name": "#BEAT", "value": 111.51828 },
@@ -9511,6 +10104,17 @@
 				{ "name": "y", "value": 0.75 },
 				{ "name": "direction", "value": 1 },
 				{ "name": "speed", "value": 1 }
+			],
+			"ref": "688"
+		},
+		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 112.931892 },
+				{ "name": "x", "value": 0.15000000596046448 },
+				{ "name": "y", "value": 0.875 },
+				{ "name": "direction", "value": -1 },
+				{ "name": "startRef", "ref": "689" }
 			]
 		},
 		{
@@ -9521,6 +10125,17 @@
 				{ "name": "y", "value": 0.5 },
 				{ "name": "direction", "value": -1 },
 				{ "name": "speed", "value": 1 }
+			],
+			"ref": "689"
+		},
+		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 114.031368 },
+				{ "name": "x", "value": 0.3499999940395355 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": 1 },
+				{ "name": "startRef", "ref": "690" }
 			]
 		},
 		{
@@ -9531,7 +10146,8 @@
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": 1 },
 				{ "name": "speed", "value": 1 }
-			]
+			],
+			"ref": "690"
 		},
 		{
 			"archetype": "TapNote",
@@ -9574,6 +10190,16 @@
 			]
 		},
 		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 114.81670799999999 },
+				{ "name": "x", "value": 0.10000000149011612 },
+				{ "name": "y", "value": 0.375 },
+				{ "name": "direction", "value": -1 },
+				{ "name": "startRef", "ref": "695" }
+			]
+		},
+		{
 			"archetype": "HoldStartNote",
 			"data": [
 				{ "name": "#BEAT", "value": 114.34550399999999 },
@@ -9581,6 +10207,17 @@
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": -1 },
 				{ "name": "speed", "value": 1 }
+			],
+			"ref": "695"
+		},
+		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 115.44498 },
+				{ "name": "x", "value": 0.15000000596046448 },
+				{ "name": "y", "value": 0.875 },
+				{ "name": "direction", "value": -1 },
+				{ "name": "startRef", "ref": "696" }
 			]
 		},
 		{
@@ -9591,7 +10228,8 @@
 				{ "name": "y", "value": 0.5 },
 				{ "name": "direction", "value": -1 },
 				{ "name": "speed", "value": 1 }
-			]
+			],
+			"ref": "696"
 		},
 		{
 			"archetype": "TapNote",
@@ -9624,6 +10262,16 @@
 			]
 		},
 		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 116.70152399999999 },
+				{ "name": "x", "value": 0.699999988079071 },
+				{ "name": "y", "value": 0.875 },
+				{ "name": "direction", "value": 1 },
+				{ "name": "startRef", "ref": "700" }
+			]
+		},
+		{
 			"archetype": "HoldStartNote",
 			"data": [
 				{ "name": "#BEAT", "value": 116.23031999999998 },
@@ -9631,6 +10279,17 @@
 				{ "name": "y", "value": 0.5 },
 				{ "name": "direction", "value": 1 },
 				{ "name": "speed", "value": 1 }
+			],
+			"ref": "700"
+		},
+		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 117.329796 },
+				{ "name": "x", "value": 0.20000000298023224 },
+				{ "name": "y", "value": 0.375 },
+				{ "name": "direction", "value": -1 },
+				{ "name": "startRef", "ref": "701" }
 			]
 		},
 		{
@@ -9641,7 +10300,8 @@
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": -1 },
 				{ "name": "speed", "value": 1 }
-			]
+			],
+			"ref": "701"
 		},
 		{
 			"archetype": "TapNote",
@@ -10266,6 +10926,16 @@
 			]
 		},
 		{
+			"archetype": "LongHoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 128.48162399999998 },
+				{ "name": "x", "value": 0.10000000149011612 },
+				{ "name": "y", "value": 1.5 },
+				{ "name": "direction", "value": -1 },
+				{ "name": "startRef", "ref": "763" }
+			]
+		},
+		{
 			"archetype": "LongHoldStartNote",
 			"data": [
 				{ "name": "#BEAT", "value": 128.01041999999998 },
@@ -10273,7 +10943,8 @@
 				{ "name": "y", "value": 0.75 },
 				{ "name": "direction", "value": -1 },
 				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+			],
+			"ref": "763"
 		},
 		{
 			"archetype": "FlickNote",
@@ -10485,6 +11156,16 @@
 			]
 		},
 		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 132.565392 },
+				{ "name": "x", "value": 0.3499999940395355 },
+				{ "name": "y", "value": 1 },
+				{ "name": "direction", "value": 1 },
+				{ "name": "startRef", "ref": "784" }
+			]
+		},
+		{
 			"archetype": "HoldStartNote",
 			"data": [
 				{ "name": "#BEAT", "value": 131.93712 },
@@ -10492,7 +11173,8 @@
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": 1 },
 				{ "name": "speed", "value": 1.591667303333588 }
-			]
+			],
+			"ref": "784"
 		},
 		{
 			"archetype": "FlickNote",
@@ -10515,6 +11197,16 @@
 			]
 		},
 		{
+			"archetype": "LongHoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 133.5078 },
+				{ "name": "x", "value": 0.8500000238418579 },
+				{ "name": "y", "value": 1.5 },
+				{ "name": "direction", "value": -1 },
+				{ "name": "startRef", "ref": "787" }
+			]
+		},
+		{
 			"archetype": "LongHoldStartNote",
 			"data": [
 				{ "name": "#BEAT", "value": 133.036596 },
@@ -10522,7 +11214,8 @@
 				{ "name": "y", "value": 0.75 },
 				{ "name": "direction", "value": -1 },
 				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+			],
+			"ref": "787"
 		},
 		{
 			"archetype": "FlickNote",
@@ -10545,6 +11238,16 @@
 			]
 		},
 		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 134.450208 },
+				{ "name": "x", "value": 0.15000000596046448 },
+				{ "name": "y", "value": 1 },
+				{ "name": "direction", "value": -1 },
+				{ "name": "startRef", "ref": "790" }
+			]
+		},
+		{
 			"archetype": "HoldStartNote",
 			"data": [
 				{ "name": "#BEAT", "value": 133.821936 },
@@ -10552,7 +11255,8 @@
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": -1 },
 				{ "name": "speed", "value": 1.591667303333588 }
-			]
+			],
+			"ref": "790"
 		},
 		{
 			"archetype": "FlickNote",
@@ -10565,6 +11269,16 @@
 			]
 		},
 		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 135.07848 },
+				{ "name": "x", "value": 0.6499999761581421 },
+				{ "name": "y", "value": 1 },
+				{ "name": "direction", "value": 1 },
+				{ "name": "startRef", "ref": "792" }
+			]
+		},
+		{
 			"archetype": "HoldStartNote",
 			"data": [
 				{ "name": "#BEAT", "value": 134.450208 },
@@ -10572,6 +11286,17 @@
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": 1 },
 				{ "name": "speed", "value": 1.591667303333588 }
+			],
+			"ref": "792"
+		},
+		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 135.07848 },
+				{ "name": "x", "value": 0.3499999940395355 },
+				{ "name": "y", "value": 1 },
+				{ "name": "direction", "value": 1 },
+				{ "name": "startRef", "ref": "793" }
 			]
 		},
 		{
@@ -10582,6 +11307,17 @@
 				{ "name": "y", "value": 0.5 },
 				{ "name": "direction", "value": 1 },
 				{ "name": "speed", "value": 1.5916673033335877 }
+			],
+			"ref": "793"
+		},
+		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 135.706752 },
+				{ "name": "x", "value": 0.15000000596046448 },
+				{ "name": "y", "value": 1 },
+				{ "name": "direction", "value": -1 },
+				{ "name": "startRef", "ref": "794" }
 			]
 		},
 		{
@@ -10592,6 +11328,17 @@
 				{ "name": "y", "value": 0.5 },
 				{ "name": "direction", "value": -1 },
 				{ "name": "speed", "value": 1.5916673033335877 }
+			],
+			"ref": "794"
+		},
+		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 135.706752 },
+				{ "name": "x", "value": 0.8500000238418579 },
+				{ "name": "y", "value": 1 },
+				{ "name": "direction", "value": -1 },
+				{ "name": "startRef", "ref": "795" }
 			]
 		},
 		{
@@ -10602,6 +11349,17 @@
 				{ "name": "y", "value": 0.5 },
 				{ "name": "direction", "value": -1 },
 				{ "name": "speed", "value": 1.5916673033335877 }
+			],
+			"ref": "795"
+		},
+		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 136.177956 },
+				{ "name": "x", "value": 0.6000000238418579 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": 1 },
+				{ "name": "startRef", "ref": "796" }
 			]
 		},
 		{
@@ -10612,7 +11370,8 @@
 				{ "name": "y", "value": 0.5 },
 				{ "name": "direction", "value": 1 },
 				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+			],
+			"ref": "796"
 		},
 		{
 			"archetype": "TapNote",
@@ -10625,6 +11384,16 @@
 			]
 		},
 		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 136.806228 },
+				{ "name": "x", "value": 0.15000000596046448 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": -1 },
+				{ "name": "startRef", "ref": "798" }
+			]
+		},
+		{
 			"archetype": "HoldStartNote",
 			"data": [
 				{ "name": "#BEAT", "value": 136.64916 },
@@ -10632,7 +11401,8 @@
 				{ "name": "y", "value": 0.5 },
 				{ "name": "direction", "value": -1 },
 				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+			],
+			"ref": "798"
 		},
 		{
 			"archetype": "TapNote",
@@ -10715,6 +11485,16 @@
 			]
 		},
 		{
+			"archetype": "LongHoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 138.533976 },
+				{ "name": "x", "value": 0.8999999761581421 },
+				{ "name": "y", "value": 1.5 },
+				{ "name": "direction", "value": -1 },
+				{ "name": "startRef", "ref": "807" }
+			]
+		},
+		{
 			"archetype": "LongHoldStartNote",
 			"data": [
 				{ "name": "#BEAT", "value": 137.905704 },
@@ -10722,7 +11502,8 @@
 				{ "name": "y", "value": 0.5 },
 				{ "name": "direction", "value": -1 },
 				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+			],
+			"ref": "807"
 		},
 		{
 			"archetype": "FlickNote",
@@ -10735,6 +11516,16 @@
 			]
 		},
 		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 139.319316 },
+				{ "name": "x", "value": 0.25 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": -1 },
+				{ "name": "startRef", "ref": "809" }
+			]
+		},
+		{
 			"archetype": "HoldStartNote",
 			"data": [
 				{ "name": "#BEAT", "value": 138.848112 },
@@ -10742,7 +11533,8 @@
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": -1 },
 				{ "name": "speed", "value": 1.591667303333588 }
-			]
+			],
+			"ref": "809"
 		},
 		{
 			"archetype": "TapNote",
@@ -10765,6 +11557,16 @@
 			]
 		},
 		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 140.104656 },
+				{ "name": "x", "value": 0.3499999940395355 },
+				{ "name": "y", "value": 1 },
+				{ "name": "direction", "value": 1 },
+				{ "name": "startRef", "ref": "812" }
+			]
+		},
+		{
 			"archetype": "HoldStartNote",
 			"data": [
 				{ "name": "#BEAT", "value": 139.476384 },
@@ -10772,6 +11574,17 @@
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": 1 },
 				{ "name": "speed", "value": 1.591667303333588 }
+			],
+			"ref": "812"
+		},
+		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 140.104656 },
+				{ "name": "x", "value": 0.6499999761581421 },
+				{ "name": "y", "value": 1 },
+				{ "name": "direction", "value": 1 },
+				{ "name": "startRef", "ref": "813" }
 			]
 		},
 		{
@@ -10782,7 +11595,8 @@
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": 1 },
 				{ "name": "speed", "value": 1.591667303333588 }
-			]
+			],
+			"ref": "813"
 		},
 		{
 			"archetype": "TapNote",
@@ -10855,6 +11669,16 @@
 			]
 		},
 		{
+			"archetype": "LongHoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 142.61774400000002 },
+				{ "name": "x", "value": 0.20000000298023224 },
+				{ "name": "y", "value": 2 },
+				{ "name": "direction", "value": -1 },
+				{ "name": "startRef", "ref": "821" }
+			]
+		},
+		{
 			"archetype": "LongHoldStartNote",
 			"data": [
 				{ "name": "#BEAT", "value": 141.83240400000003 },
@@ -10862,7 +11686,8 @@
 				{ "name": "y", "value": 0.75 },
 				{ "name": "direction", "value": -1 },
 				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+			],
+			"ref": "821"
 		},
 		{
 			"archetype": "FlickNote",
@@ -10885,6 +11710,16 @@
 			]
 		},
 		{
+			"archetype": "HoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 143.87428799999998 },
+				{ "name": "x", "value": 0.6499999761581421 },
+				{ "name": "y", "value": 1 },
+				{ "name": "direction", "value": 1 },
+				{ "name": "startRef", "ref": "824" }
+			]
+		},
+		{
 			"archetype": "HoldStartNote",
 			"data": [
 				{ "name": "#BEAT", "value": 143.246016 },
@@ -10892,7 +11727,8 @@
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": 1 },
 				{ "name": "speed", "value": 1.591667303333588 }
-			]
+			],
+			"ref": "824"
 		},
 		{
 			"archetype": "FlickNote",
@@ -10945,6 +11781,16 @@
 			]
 		},
 		{
+			"archetype": "LongHoldEndNote",
+			"data": [
+				{ "name": "#BEAT", "value": 147.64392 },
+				{ "name": "x", "value": 0.4000000059604645 },
+				{ "name": "y", "value": 2.5 },
+				{ "name": "direction", "value": 1 },
+				{ "name": "startRef", "ref": "830" }
+			]
+		},
+		{
 			"archetype": "LongHoldStartNote",
 			"data": [
 				{ "name": "#BEAT", "value": 144.81669599999998 },
@@ -10952,7 +11798,8 @@
 				{ "name": "y", "value": 0.25 },
 				{ "name": "direction", "value": 1 },
 				{ "name": "speed", "value": 1.3455839231026683 }
-			]
+			],
+			"ref": "830"
 		},
 		{
 			"archetype": "DragNote",
