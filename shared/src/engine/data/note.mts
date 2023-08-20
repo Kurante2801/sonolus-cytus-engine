@@ -7,4 +7,7 @@ export const note = {
 
 	// Visual effect radius
 	effect: 0.6,
+
+	// Drag segment thickness
+	segmentThick: 0.03,
 };

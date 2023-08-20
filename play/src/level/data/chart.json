@@ -1546,28 +1546,36 @@
 				{ "name": "x", "value": 0.25 },
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "1" }
+			],
+			"ref": "0"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 2.6701559999999995 },
 				{ "name": "x", "value": 0.30000001192092896 },
 				{ "name": "y", "value": 0.125 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "2" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "1"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 2.827224 },
 				{ "name": "x", "value": 0.3499999940395355 },
 				{ "name": "y", "value": 0.25 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "2"
 		},
 		{
 			"archetype": "TapNote",
@@ -1576,28 +1584,36 @@
 				{ "name": "x", "value": 0.30000001192092896 },
 				{ "name": "y", "value": 0.375 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "4" }
+			],
+			"ref": "3"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 3.1413599999999997 },
 				{ "name": "x", "value": 0.3499999940395355 },
 				{ "name": "y", "value": 0.5 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "5" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "4"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 3.2984279999999995 },
 				{ "name": "x", "value": 0.4000000059604645 },
 				{ "name": "y", "value": 0.625 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "5"
 		},
 		{
 			"archetype": "TapNote",
@@ -1606,28 +1622,36 @@
 				{ "name": "x", "value": 0.3499999940395355 },
 				{ "name": "y", "value": 0.75 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "7" }
+			],
+			"ref": "6"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 3.612564 },
 				{ "name": "x", "value": 0.4000000059604645 },
 				{ "name": "y", "value": 0.875 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "8" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "7"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 3.7696319999999996 },
 				{ "name": "x", "value": 0.44999998807907104 },
-				{ "name": "y", "value": 0 },
-				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "y", "value": 1 },
+				{ "name": "direction", "value": 1 },
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "8"
 		},
 		{
 			"archetype": "TapNote",
@@ -1636,28 +1660,36 @@
 				{ "name": "x", "value": 0.550000011920929 },
 				{ "name": "y", "value": 0.125 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "10" }
+			],
+			"ref": "9"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 4.083768 },
 				{ "name": "x", "value": 0.6000000238418579 },
 				{ "name": "y", "value": 0.25 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "11" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "10"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 4.240836 },
 				{ "name": "x", "value": 0.6499999761581421 },
 				{ "name": "y", "value": 0.375 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "11"
 		},
 		{
 			"archetype": "TapNote",
@@ -1666,28 +1698,36 @@
 				{ "name": "x", "value": 0.6000000238418579 },
 				{ "name": "y", "value": 0.5 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "13" }
+			],
+			"ref": "12"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 4.554972 },
 				{ "name": "x", "value": 0.6499999761581421 },
 				{ "name": "y", "value": 0.625 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "14" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "13"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 4.71204 },
 				{ "name": "x", "value": 0.699999988079071 },
 				{ "name": "y", "value": 0.75 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "14"
 		},
 		{
 			"archetype": "TapNote",
@@ -1696,28 +1736,36 @@
 				{ "name": "x", "value": 0.6499999761581421 },
 				{ "name": "y", "value": 0.875 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "16" }
+			],
+			"ref": "15"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 5.026176 },
 				{ "name": "x", "value": 0.75 },
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "17" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "16"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 5.183244 },
 				{ "name": "x", "value": 0.8500000238418579 },
 				{ "name": "y", "value": 0.125 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "17"
 		},
 		{
 			"archetype": "TapNote",
@@ -1726,28 +1774,36 @@
 				{ "name": "x", "value": 0.8999999761581421 },
 				{ "name": "y", "value": 0.25 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "19" }
+			],
+			"ref": "18"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 5.497379999999999 },
 				{ "name": "x", "value": 0.8500000238418579 },
 				{ "name": "y", "value": 0.375 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "20" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "19"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 5.654448 },
 				{ "name": "x", "value": 0.800000011920929 },
 				{ "name": "y", "value": 0.5 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "20"
 		},
 		{
 			"archetype": "TapNote",
@@ -1756,28 +1812,36 @@
 				{ "name": "x", "value": 0.8500000238418579 },
 				{ "name": "y", "value": 0.625 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "22" }
+			],
+			"ref": "21"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 5.968583999999999 },
 				{ "name": "x", "value": 0.800000011920929 },
 				{ "name": "y", "value": 0.75 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "23" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "22"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 6.1256520000000005 },
 				{ "name": "x", "value": 0.75 },
 				{ "name": "y", "value": 0.875 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "23"
 		},
 		{
 			"archetype": "TapNote",
@@ -1786,28 +1850,36 @@
 				{ "name": "x", "value": 0.25 },
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "25" }
+			],
+			"ref": "24"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 6.439787999999999 },
 				{ "name": "x", "value": 0.20000000298023224 },
 				{ "name": "y", "value": 0.125 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "26" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "25"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 6.596855999999999 },
 				{ "name": "x", "value": 0.15000000596046448 },
 				{ "name": "y", "value": 0.25 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "26"
 		},
 		{
 			"archetype": "TapNote",
@@ -1816,48 +1888,62 @@
 				{ "name": "x", "value": 0.20000000298023224 },
 				{ "name": "y", "value": 0.375 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "28" }
+			],
+			"ref": "27"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 6.910991999999999 },
 				{ "name": "x", "value": 0.15000000596046448 },
 				{ "name": "y", "value": 0.5 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "29" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "28"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 7.068059999999999 },
 				{ "name": "x", "value": 0.10000000149011612 },
 				{ "name": "y", "value": 0.625 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "30" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "29"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 7.225128 },
 				{ "name": "x", "value": 0.15000000596046448 },
 				{ "name": "y", "value": 0.75 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "31" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "30"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 7.3821959999999995 },
 				{ "name": "x", "value": 0.20000000298023224 },
 				{ "name": "y", "value": 0.875 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "31"
 		},
 		{
 			"archetype": "TapNote",
@@ -1866,28 +1952,36 @@
 				{ "name": "x", "value": 0.75 },
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "33" }
+			],
+			"ref": "32"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 7.696332 },
 				{ "name": "x", "value": 0.699999988079071 },
 				{ "name": "y", "value": 0.125 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "34" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "33"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 7.8534 },
 				{ "name": "x", "value": 0.6499999761581421 },
 				{ "name": "y", "value": 0.25 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "34"
 		},
 		{
 			"archetype": "TapNote",
@@ -1896,28 +1990,36 @@
 				{ "name": "x", "value": 0.699999988079071 },
 				{ "name": "y", "value": 0.375 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "36" }
+			],
+			"ref": "35"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 8.167536 },
 				{ "name": "x", "value": 0.6499999761581421 },
 				{ "name": "y", "value": 0.5 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "37" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "36"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 8.324603999999999 },
 				{ "name": "x", "value": 0.6000000238418579 },
 				{ "name": "y", "value": 0.625 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "37"
 		},
 		{
 			"archetype": "TapNote",
@@ -1926,28 +2028,36 @@
 				{ "name": "x", "value": 0.6499999761581421 },
 				{ "name": "y", "value": 0.75 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "39" }
+			],
+			"ref": "38"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 8.63874 },
 				{ "name": "x", "value": 0.6000000238418579 },
 				{ "name": "y", "value": 0.875 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "40" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "39"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 8.795808 },
 				{ "name": "x", "value": 0.550000011920929 },
-				{ "name": "y", "value": 0 },
-				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "y", "value": 1 },
+				{ "name": "direction", "value": 1 },
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "40"
 		},
 		{
 			"archetype": "TapNote",
@@ -1956,28 +2066,36 @@
 				{ "name": "x", "value": 0.44999998807907104 },
 				{ "name": "y", "value": 0.125 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "42" }
+			],
+			"ref": "41"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 9.109944 },
 				{ "name": "x", "value": 0.4000000059604645 },
 				{ "name": "y", "value": 0.25 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "43" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "42"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 9.267012 },
 				{ "name": "x", "value": 0.3499999940395355 },
 				{ "name": "y", "value": 0.375 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "43"
 		},
 		{
 			"archetype": "TapNote",
@@ -1986,28 +2104,36 @@
 				{ "name": "x", "value": 0.4000000059604645 },
 				{ "name": "y", "value": 0.5 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "45" }
+			],
+			"ref": "44"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 9.581148 },
 				{ "name": "x", "value": 0.3499999940395355 },
 				{ "name": "y", "value": 0.625 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "46" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "45"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 9.738216 },
 				{ "name": "x", "value": 0.30000001192092896 },
 				{ "name": "y", "value": 0.75 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "46"
 		},
 		{
 			"archetype": "TapNote",
@@ -2016,28 +2142,36 @@
 				{ "name": "x", "value": 0.3499999940395355 },
 				{ "name": "y", "value": 0.875 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "48" }
+			],
+			"ref": "47"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 10.052352 },
 				{ "name": "x", "value": 0.25 },
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "49" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "48"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 10.20942 },
 				{ "name": "x", "value": 0.15000000596046448 },
 				{ "name": "y", "value": 0.125 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "49"
 		},
 		{
 			"archetype": "TapNote",
@@ -2046,28 +2180,36 @@
 				{ "name": "x", "value": 0.10000000149011612 },
 				{ "name": "y", "value": 0.25 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "51" }
+			],
+			"ref": "50"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 10.523556000000001 },
 				{ "name": "x", "value": 0.15000000596046448 },
 				{ "name": "y", "value": 0.375 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "52" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "51"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 10.680623999999998 },
 				{ "name": "x", "value": 0.20000000298023224 },
 				{ "name": "y", "value": 0.5 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "52"
 		},
 		{
 			"archetype": "TapNote",
@@ -2076,28 +2218,36 @@
 				{ "name": "x", "value": 0.15000000596046448 },
 				{ "name": "y", "value": 0.625 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "54" }
+			],
+			"ref": "53"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 10.994759999999998 },
 				{ "name": "x", "value": 0.20000000298023224 },
 				{ "name": "y", "value": 0.75 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "55" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "54"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 11.151828 },
 				{ "name": "x", "value": 0.25 },
 				{ "name": "y", "value": 0.875 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "55"
 		},
 		{
 			"archetype": "TapNote",
@@ -2106,28 +2256,36 @@
 				{ "name": "x", "value": 0.75 },
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "57" }
+			],
+			"ref": "56"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 11.465964000000001 },
 				{ "name": "x", "value": 0.800000011920929 },
 				{ "name": "y", "value": 0.125 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "58" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "57"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 11.623031999999998 },
 				{ "name": "x", "value": 0.8500000238418579 },
 				{ "name": "y", "value": 0.25 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "58"
 		},
 		{
 			"archetype": "TapNote",
@@ -2136,48 +2294,62 @@
 				{ "name": "x", "value": 0.800000011920929 },
 				{ "name": "y", "value": 0.375 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "60" }
+			],
+			"ref": "59"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 11.937167999999998 },
 				{ "name": "x", "value": 0.8500000238418579 },
 				{ "name": "y", "value": 0.5 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "61" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "60"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 12.094236 },
 				{ "name": "x", "value": 0.8999999761581421 },
 				{ "name": "y", "value": 0.625 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "62" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "61"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 12.251304000000001 },
 				{ "name": "x", "value": 0.8500000238418579 },
 				{ "name": "y", "value": 0.75 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "63" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "62"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 12.408371999999998 },
 				{ "name": "x", "value": 0.800000011920929 },
 				{ "name": "y", "value": 0.875 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "63"
 		},
 		{
 			"archetype": "TapNote",
@@ -2596,8 +2768,11 @@
 				{ "name": "x", "value": 0.800000011920929 },
 				{ "name": "y", "value": 0.25 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "106" },
+				{ "name": "type", "value": 0 }
+			],
+			"ref": "105"
 		},
 		{
 			"archetype": "DragNote",
@@ -2606,8 +2781,11 @@
 				{ "name": "x", "value": 0.699999988079071 },
 				{ "name": "y", "value": 0.375 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "107" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "106"
 		},
 		{
 			"archetype": "DragNote",
@@ -2616,8 +2794,11 @@
 				{ "name": "x", "value": 0.6000000238418579 },
 				{ "name": "y", "value": 0.5 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "108" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "107"
 		},
 		{
 			"archetype": "DragNote",
@@ -2626,8 +2807,11 @@
 				{ "name": "x", "value": 0.5 },
 				{ "name": "y", "value": 0.625 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "109" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "108"
 		},
 		{
 			"archetype": "DragNote",
@@ -2636,8 +2820,11 @@
 				{ "name": "x", "value": 0.4000000059604645 },
 				{ "name": "y", "value": 0.75 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "110" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "109"
 		},
 		{
 			"archetype": "DragNote",
@@ -2646,18 +2833,24 @@
 				{ "name": "x", "value": 0.30000001192092896 },
 				{ "name": "y", "value": 0.875 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "111" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "110"
 		},
 		{
 			"archetype": "DragNote",
 			"data": [
 				{ "name": "#BEAT", "value": 25.130879999999998 },
 				{ "name": "x", "value": 0.20000000298023224 },
-				{ "name": "y", "value": 0 },
-				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "y", "value": 1 },
+				{ "name": "direction", "value": -1 },
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "111"
 		},
 		{
 			"archetype": "TapNote",
@@ -2836,8 +3029,11 @@
 				{ "name": "x", "value": 0.6000000238418579 },
 				{ "name": "y", "value": 0.75 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "130" },
+				{ "name": "type", "value": 0 }
+			],
+			"ref": "129"
 		},
 		{
 			"archetype": "DragNote",
@@ -2846,18 +3042,24 @@
 				{ "name": "x", "value": 0.699999988079071 },
 				{ "name": "y", "value": 0.875 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "131" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "130"
 		},
 		{
 			"archetype": "DragNote",
 			"data": [
 				{ "name": "#BEAT", "value": 28.272239999999996 },
 				{ "name": "x", "value": 0.800000011920929 },
-				{ "name": "y", "value": 0 },
-				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "y", "value": 1 },
+				{ "name": "direction", "value": 1 },
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "131"
 		},
 		{
 			"archetype": "TapNote",
@@ -2986,8 +3188,11 @@
 				{ "name": "x", "value": 0.20000000298023224 },
 				{ "name": "y", "value": 0.25 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "146" },
+				{ "name": "type", "value": 0 }
+			],
+			"ref": "144"
 		},
 		{
 			"archetype": "TapNote",
@@ -3006,8 +3211,11 @@
 				{ "name": "x", "value": 0.30000001192092896 },
 				{ "name": "y", "value": 0.375 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "147" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "146"
 		},
 		{
 			"archetype": "DragNote",
@@ -3016,8 +3224,11 @@
 				{ "name": "x", "value": 0.4000000059604645 },
 				{ "name": "y", "value": 0.5 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "148" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "147"
 		},
 		{
 			"archetype": "DragNote",
@@ -3026,8 +3237,11 @@
 				{ "name": "x", "value": 0.5 },
 				{ "name": "y", "value": 0.625 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "149" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "148"
 		},
 		{
 			"archetype": "DragNote",
@@ -3036,8 +3250,11 @@
 				{ "name": "x", "value": 0.6000000238418579 },
 				{ "name": "y", "value": 0.75 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "150" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "149"
 		},
 		{
 			"archetype": "DragNote",
@@ -3046,18 +3263,24 @@
 				{ "name": "x", "value": 0.699999988079071 },
 				{ "name": "y", "value": 0.875 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "151" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "150"
 		},
 		{
 			"archetype": "DragNote",
 			"data": [
 				{ "name": "#BEAT", "value": 32.670144 },
 				{ "name": "x", "value": 0.800000011920929 },
-				{ "name": "y", "value": 0 },
-				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "y", "value": 1 },
+				{ "name": "direction", "value": -1 },
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "151"
 		},
 		{
 			"archetype": "TapNote",
@@ -3176,8 +3399,11 @@
 				{ "name": "x", "value": 0.20000000298023224 },
 				{ "name": "y", "value": 0.25 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "165" },
+				{ "name": "type", "value": 0 }
+			],
+			"ref": "163"
 		},
 		{
 			"archetype": "DragNote",
@@ -3186,8 +3412,11 @@
 				{ "name": "x", "value": 0.800000011920929 },
 				{ "name": "y", "value": 0.25 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "166" },
+				{ "name": "type", "value": 0 }
+			],
+			"ref": "164"
 		},
 		{
 			"archetype": "DragNote",
@@ -3196,8 +3425,11 @@
 				{ "name": "x", "value": 0.30000001192092896 },
 				{ "name": "y", "value": 0.375 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "167" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "165"
 		},
 		{
 			"archetype": "DragNote",
@@ -3206,8 +3438,11 @@
 				{ "name": "x", "value": 0.699999988079071 },
 				{ "name": "y", "value": 0.375 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "168" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "166"
 		},
 		{
 			"archetype": "DragNote",
@@ -3216,8 +3451,11 @@
 				{ "name": "x", "value": 0.4000000059604645 },
 				{ "name": "y", "value": 0.5 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "171" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "167"
 		},
 		{
 			"archetype": "DragNote",
@@ -3226,8 +3464,11 @@
 				{ "name": "x", "value": 0.6000000238418579 },
 				{ "name": "y", "value": 0.5 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "169" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "168"
 		},
 		{
 			"archetype": "DragNote",
@@ -3236,8 +3477,11 @@
 				{ "name": "x", "value": 0.5 },
 				{ "name": "y", "value": 0.625 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "170" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "169"
 		},
 		{
 			"archetype": "DragNote",
@@ -3246,8 +3490,11 @@
 				{ "name": "x", "value": 0.4000000059604645 },
 				{ "name": "y", "value": 0.75 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "172" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "170"
 		},
 		{
 			"archetype": "DragNote",
@@ -3256,8 +3503,11 @@
 				{ "name": "x", "value": 0.6000000238418579 },
 				{ "name": "y", "value": 0.75 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "173" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "171"
 		},
 		{
 			"archetype": "DragNote",
@@ -3266,8 +3516,11 @@
 				{ "name": "x", "value": 0.30000001192092896 },
 				{ "name": "y", "value": 0.875 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "174" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "172"
 		},
 		{
 			"archetype": "DragNote",
@@ -3276,28 +3529,37 @@
 				{ "name": "x", "value": 0.699999988079071 },
 				{ "name": "y", "value": 0.875 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "175" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "173"
 		},
 		{
 			"archetype": "DragNote",
 			"data": [
 				{ "name": "#BEAT", "value": 35.183232 },
 				{ "name": "x", "value": 0.20000000298023224 },
-				{ "name": "y", "value": 0 },
-				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "y", "value": 1 },
+				{ "name": "direction", "value": -1 },
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "174"
 		},
 		{
 			"archetype": "DragNote",
 			"data": [
 				{ "name": "#BEAT", "value": 35.183232 },
 				{ "name": "x", "value": 0.800000011920929 },
-				{ "name": "y", "value": 0 },
-				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "y", "value": 1 },
+				{ "name": "direction", "value": -1 },
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "175"
 		},
 		{
 			"archetype": "TapNote",
@@ -4666,8 +4928,11 @@
 				{ "name": "x", "value": 0.20000000298023224 },
 				{ "name": "y", "value": 0.625 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "313" },
+				{ "name": "type", "value": 0 }
+			],
+			"ref": "312"
 		},
 		{
 			"archetype": "DragNote",
@@ -4676,8 +4941,11 @@
 				{ "name": "x", "value": 0.25 },
 				{ "name": "y", "value": 0.75 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "313"
 		},
 		{
 			"archetype": "TapNote",
@@ -4696,8 +4964,11 @@
 				{ "name": "x", "value": 0.6499999761581421 },
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "316" },
+				{ "name": "type", "value": 0 }
+			],
+			"ref": "315"
 		},
 		{
 			"archetype": "DragNote",
@@ -4706,8 +4977,11 @@
 				{ "name": "x", "value": 0.6899999976158142 },
 				{ "name": "y", "value": 0.0625 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "317" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "316"
 		},
 		{
 			"archetype": "DragNote",
@@ -4716,8 +4990,11 @@
 				{ "name": "x", "value": 0.7200000286102295 },
 				{ "name": "y", "value": 0.125 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "318" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "317"
 		},
 		{
 			"archetype": "DragNote",
@@ -4726,8 +5003,11 @@
 				{ "name": "x", "value": 0.7400000095367432 },
 				{ "name": "y", "value": 0.1875 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "319" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "318"
 		},
 		{
 			"archetype": "DragNote",
@@ -4736,8 +5016,11 @@
 				{ "name": "x", "value": 0.75 },
 				{ "name": "y", "value": 0.25 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "320" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "319"
 		},
 		{
 			"archetype": "DragNote",
@@ -4746,8 +5029,11 @@
 				{ "name": "x", "value": 0.7400000095367432 },
 				{ "name": "y", "value": 0.3125 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "321" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "320"
 		},
 		{
 			"archetype": "DragNote",
@@ -4756,8 +5042,11 @@
 				{ "name": "x", "value": 0.7200000286102295 },
 				{ "name": "y", "value": 0.375 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "322" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "321"
 		},
 		{
 			"archetype": "DragNote",
@@ -4766,8 +5055,11 @@
 				{ "name": "x", "value": 0.6899999976158142 },
 				{ "name": "y", "value": 0.4375 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "323" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "322"
 		},
 		{
 			"archetype": "DragNote",
@@ -4776,8 +5068,11 @@
 				{ "name": "x", "value": 0.6499999761581421 },
 				{ "name": "y", "value": 0.5 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "324" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "323"
 		},
 		{
 			"archetype": "DragNote",
@@ -4786,8 +5081,11 @@
 				{ "name": "x", "value": 0.6100000143051147 },
 				{ "name": "y", "value": 0.5625 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.0019844364066381 }
-			]
+				{ "name": "speed", "value": 1.0019844364066381 },
+				{ "name": "nextRef", "ref": "325" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "324"
 		},
 		{
 			"archetype": "DragNote",
@@ -4796,8 +5094,11 @@
 				{ "name": "x", "value": 0.5799999833106995 },
 				{ "name": "y", "value": 0.625 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.031678143033198 }
-			]
+				{ "name": "speed", "value": 1.031678143033198 },
+				{ "name": "nextRef", "ref": "326" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "325"
 		},
 		{
 			"archetype": "DragNote",
@@ -4806,8 +5107,11 @@
 				{ "name": "x", "value": 0.5600000023841858 },
 				{ "name": "y", "value": 0.6875 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.0631855380684168 }
-			]
+				{ "name": "speed", "value": 1.0631855380684168 },
+				{ "name": "nextRef", "ref": "327" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "326"
 		},
 		{
 			"archetype": "DragNote",
@@ -4816,8 +5120,11 @@
 				{ "name": "x", "value": 0.550000011920929 },
 				{ "name": "y", "value": 0.75 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.0966780260368016 }
-			]
+				{ "name": "speed", "value": 1.0966780260368016 },
+				{ "name": "nextRef", "ref": "328" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "327"
 		},
 		{
 			"archetype": "DragNote",
@@ -4826,8 +5133,11 @@
 				{ "name": "x", "value": 0.5600000023841858 },
 				{ "name": "y", "value": 0.8125 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.1323493123377646 }
-			]
+				{ "name": "speed", "value": 1.1323493123377646 },
+				{ "name": "nextRef", "ref": "329" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "328"
 		},
 		{
 			"archetype": "DragNote",
@@ -4836,8 +5146,11 @@
 				{ "name": "x", "value": 0.5799999833106995 },
 				{ "name": "y", "value": 0.875 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.1704191520478828 }
-			]
+				{ "name": "speed", "value": 1.1704191520478828 },
+				{ "name": "nextRef", "ref": "330" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "329"
 		},
 		{
 			"archetype": "DragNote",
@@ -4846,8 +5159,11 @@
 				{ "name": "x", "value": 0.6100000143051147 },
 				{ "name": "y", "value": 0.9375 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.2111378812452072 }
-			]
+				{ "name": "speed", "value": 1.2111378812452072 },
+				{ "name": "nextRef", "ref": "332" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "330"
 		},
 		{
 			"archetype": "FlickNote",
@@ -4866,8 +5182,11 @@
 				{ "name": "x", "value": 0.6499999761581421 },
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "333" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "332"
 		},
 		{
 			"archetype": "DragNote",
@@ -4876,8 +5195,11 @@
 				{ "name": "x", "value": 0.7099999785423279 },
 				{ "name": "y", "value": 0.0625 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "334" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "333"
 		},
 		{
 			"archetype": "DragNote",
@@ -4886,8 +5208,11 @@
 				{ "name": "x", "value": 0.7599999904632568 },
 				{ "name": "y", "value": 0.125 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "335" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "334"
 		},
 		{
 			"archetype": "DragNote",
@@ -4896,8 +5221,11 @@
 				{ "name": "x", "value": 0.800000011920929 },
 				{ "name": "y", "value": 0.1875 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "336" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "335"
 		},
 		{
 			"archetype": "DragNote",
@@ -4906,8 +5234,11 @@
 				{ "name": "x", "value": 0.8299999833106995 },
 				{ "name": "y", "value": 0.25 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "337" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "336"
 		},
 		{
 			"archetype": "DragNote",
@@ -4916,8 +5247,11 @@
 				{ "name": "x", "value": 0.8500000238418579 },
 				{ "name": "y", "value": 0.3125 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "338" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "337"
 		},
 		{
 			"archetype": "DragNote",
@@ -4926,8 +5260,11 @@
 				{ "name": "x", "value": 0.8600000143051147 },
 				{ "name": "y", "value": 0.375 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "339" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "338"
 		},
 		{
 			"archetype": "DragNote",
@@ -4936,8 +5273,11 @@
 				{ "name": "x", "value": 0.8600000143051147 },
 				{ "name": "y", "value": 0.4375 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "340" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "339"
 		},
 		{
 			"archetype": "DragNote",
@@ -4946,8 +5286,11 @@
 				{ "name": "x", "value": 0.8500000238418579 },
 				{ "name": "y", "value": 0.5 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "341" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "340"
 		},
 		{
 			"archetype": "DragNote",
@@ -4956,8 +5299,11 @@
 				{ "name": "x", "value": 0.8299999833106995 },
 				{ "name": "y", "value": 0.5625 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "342" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "341"
 		},
 		{
 			"archetype": "DragNote",
@@ -4966,8 +5312,11 @@
 				{ "name": "x", "value": 0.8100000023841858 },
 				{ "name": "y", "value": 0.625 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "343" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "342"
 		},
 		{
 			"archetype": "DragNote",
@@ -4976,8 +5325,11 @@
 				{ "name": "x", "value": 0.7799999713897705 },
 				{ "name": "y", "value": 0.6875 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "344" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "343"
 		},
 		{
 			"archetype": "DragNote",
@@ -4986,8 +5338,11 @@
 				{ "name": "x", "value": 0.75 },
 				{ "name": "y", "value": 0.75 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "345" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "344"
 		},
 		{
 			"archetype": "DragNote",
@@ -4996,8 +5351,11 @@
 				{ "name": "x", "value": 0.7099999785423279 },
 				{ "name": "y", "value": 0.8125 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "346" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "345"
 		},
 		{
 			"archetype": "DragNote",
@@ -5006,8 +5364,11 @@
 				{ "name": "x", "value": 0.6700000166893005 },
 				{ "name": "y", "value": 0.875 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "346"
 		},
 		{
 			"archetype": "TapNote",
@@ -5026,8 +5387,11 @@
 				{ "name": "x", "value": 0.6000000238418579 },
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "349" },
+				{ "name": "type", "value": 0 }
+			],
+			"ref": "348"
 		},
 		{
 			"archetype": "DragNote",
@@ -5036,8 +5400,11 @@
 				{ "name": "x", "value": 0.5799999833106995 },
 				{ "name": "y", "value": 0.0625 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "350" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "349"
 		},
 		{
 			"archetype": "DragNote",
@@ -5046,8 +5413,11 @@
 				{ "name": "x", "value": 0.5600000023841858 },
 				{ "name": "y", "value": 0.125 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "351" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "350"
 		},
 		{
 			"archetype": "DragNote",
@@ -5056,8 +5426,11 @@
 				{ "name": "x", "value": 0.5400000214576721 },
 				{ "name": "y", "value": 0.1875 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "352" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "351"
 		},
 		{
 			"archetype": "DragNote",
@@ -5066,8 +5439,11 @@
 				{ "name": "x", "value": 0.5199999809265137 },
 				{ "name": "y", "value": 0.25 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "353" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "352"
 		},
 		{
 			"archetype": "DragNote",
@@ -5076,8 +5452,11 @@
 				{ "name": "x", "value": 0.5 },
 				{ "name": "y", "value": 0.3125 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "354" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "353"
 		},
 		{
 			"archetype": "DragNote",
@@ -5086,8 +5465,11 @@
 				{ "name": "x", "value": 0.47999998927116394 },
 				{ "name": "y", "value": 0.375 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "354"
 		},
 		{
 			"archetype": "TapNote",
@@ -5106,8 +5488,11 @@
 				{ "name": "x", "value": 0.47999998927116394 },
 				{ "name": "y", "value": 0.5 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "357" },
+				{ "name": "type", "value": 0 }
+			],
+			"ref": "356"
 		},
 		{
 			"archetype": "DragNote",
@@ -5116,8 +5501,11 @@
 				{ "name": "x", "value": 0.5 },
 				{ "name": "y", "value": 0.5625 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "358" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "357"
 		},
 		{
 			"archetype": "DragNote",
@@ -5126,8 +5514,11 @@
 				{ "name": "x", "value": 0.5199999809265137 },
 				{ "name": "y", "value": 0.625 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "359" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "358"
 		},
 		{
 			"archetype": "DragNote",
@@ -5136,8 +5527,11 @@
 				{ "name": "x", "value": 0.5400000214576721 },
 				{ "name": "y", "value": 0.6875 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "360" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "359"
 		},
 		{
 			"archetype": "DragNote",
@@ -5146,8 +5540,11 @@
 				{ "name": "x", "value": 0.5600000023841858 },
 				{ "name": "y", "value": 0.75 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "361" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "360"
 		},
 		{
 			"archetype": "DragNote",
@@ -5156,8 +5553,11 @@
 				{ "name": "x", "value": 0.5799999833106995 },
 				{ "name": "y", "value": 0.8125 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "362" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "361"
 		},
 		{
 			"archetype": "DragNote",
@@ -5166,8 +5566,11 @@
 				{ "name": "x", "value": 0.6000000238418579 },
 				{ "name": "y", "value": 0.875 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "362"
 		},
 		{
 			"archetype": "FlickNote",
@@ -5186,8 +5589,11 @@
 				{ "name": "x", "value": 0.6499999761581421 },
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "365" },
+				{ "name": "type", "value": 0 }
+			],
+			"ref": "364"
 		},
 		{
 			"archetype": "DragNote",
@@ -5196,8 +5602,11 @@
 				{ "name": "x", "value": 0.7099999785423279 },
 				{ "name": "y", "value": 0.0625 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "366" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "365"
 		},
 		{
 			"archetype": "DragNote",
@@ -5206,8 +5615,11 @@
 				{ "name": "x", "value": 0.7599999904632568 },
 				{ "name": "y", "value": 0.125 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "367" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "366"
 		},
 		{
 			"archetype": "DragNote",
@@ -5216,8 +5628,11 @@
 				{ "name": "x", "value": 0.800000011920929 },
 				{ "name": "y", "value": 0.1875 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "368" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "367"
 		},
 		{
 			"archetype": "DragNote",
@@ -5226,8 +5641,11 @@
 				{ "name": "x", "value": 0.8299999833106995 },
 				{ "name": "y", "value": 0.25 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "369" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "368"
 		},
 		{
 			"archetype": "DragNote",
@@ -5236,8 +5654,11 @@
 				{ "name": "x", "value": 0.8500000238418579 },
 				{ "name": "y", "value": 0.3125 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "370" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "369"
 		},
 		{
 			"archetype": "DragNote",
@@ -5246,8 +5667,11 @@
 				{ "name": "x", "value": 0.8600000143051147 },
 				{ "name": "y", "value": 0.375 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "371" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "370"
 		},
 		{
 			"archetype": "DragNote",
@@ -5256,8 +5680,11 @@
 				{ "name": "x", "value": 0.8600000143051147 },
 				{ "name": "y", "value": 0.4375 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "372" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "371"
 		},
 		{
 			"archetype": "DragNote",
@@ -5266,8 +5693,11 @@
 				{ "name": "x", "value": 0.8500000238418579 },
 				{ "name": "y", "value": 0.5 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "373" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "372"
 		},
 		{
 			"archetype": "DragNote",
@@ -5276,8 +5706,11 @@
 				{ "name": "x", "value": 0.8299999833106995 },
 				{ "name": "y", "value": 0.5625 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "374" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "373"
 		},
 		{
 			"archetype": "DragNote",
@@ -5286,8 +5719,11 @@
 				{ "name": "x", "value": 0.8100000023841858 },
 				{ "name": "y", "value": 0.625 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "375" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "374"
 		},
 		{
 			"archetype": "DragNote",
@@ -5296,8 +5732,11 @@
 				{ "name": "x", "value": 0.7799999713897705 },
 				{ "name": "y", "value": 0.6875 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "376" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "375"
 		},
 		{
 			"archetype": "DragNote",
@@ -5306,8 +5745,11 @@
 				{ "name": "x", "value": 0.75 },
 				{ "name": "y", "value": 0.75 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "377" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "376"
 		},
 		{
 			"archetype": "DragNote",
@@ -5316,8 +5758,11 @@
 				{ "name": "x", "value": 0.7099999785423279 },
 				{ "name": "y", "value": 0.8125 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "378" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "377"
 		},
 		{
 			"archetype": "DragNote",
@@ -5326,8 +5771,11 @@
 				{ "name": "x", "value": 0.6700000166893005 },
 				{ "name": "y", "value": 0.875 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "378"
 		},
 		{
 			"archetype": "TapNote",
@@ -5396,38 +5844,49 @@
 				{ "name": "x", "value": 0.800000011920929 },
 				{ "name": "y", "value": 0.5 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "386" }
+			],
+			"ref": "385"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 86.42666699999998 },
 				{ "name": "x", "value": 0.8299999833106995 },
 				{ "name": "y", "value": 0.5625 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "387" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "386"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 86.46593399999999 },
 				{ "name": "x", "value": 0.8600000143051147 },
 				{ "name": "y", "value": 0.625 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "388" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "387"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 86.50520099999999 },
 				{ "name": "x", "value": 0.8899999856948853 },
 				{ "name": "y", "value": 0.6875 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "388"
 		},
 		{
 			"archetype": "TapNote",
@@ -5436,38 +5895,49 @@
 				{ "name": "x", "value": 0.10000000149011612 },
 				{ "name": "y", "value": 0.75 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "390" }
+			],
+			"ref": "389"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 86.58373499999999 },
 				{ "name": "x", "value": 0.12999999523162842 },
 				{ "name": "y", "value": 0.8125 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "391" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "390"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 86.623002 },
 				{ "name": "x", "value": 0.1599999964237213 },
 				{ "name": "y", "value": 0.875 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "392" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "391"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 86.66226899999998 },
 				{ "name": "x", "value": 0.1899999976158142 },
 				{ "name": "y", "value": 0.9375 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "392"
 		},
 		{
 			"archetype": "TapNote",
@@ -5476,38 +5946,49 @@
 				{ "name": "x", "value": 0.699999988079071 },
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "394" }
+			],
+			"ref": "393"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 86.74080299999999 },
 				{ "name": "x", "value": 0.6700000166893005 },
 				{ "name": "y", "value": 0.0625 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "395" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "394"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 86.78007 },
 				{ "name": "x", "value": 0.6399999856948853 },
 				{ "name": "y", "value": 0.125 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "396" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "395"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 86.81933699999999 },
 				{ "name": "x", "value": 0.6100000143051147 },
 				{ "name": "y", "value": 0.1875 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "396"
 		},
 		{
 			"archetype": "TapNote",
@@ -5516,38 +5997,49 @@
 				{ "name": "x", "value": 0.30000001192092896 },
 				{ "name": "y", "value": 0.25 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "398" }
+			],
+			"ref": "397"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 86.89787099999998 },
 				{ "name": "x", "value": 0.33000001311302185 },
 				{ "name": "y", "value": 0.3125 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "399" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "398"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 86.93713799999999 },
 				{ "name": "x", "value": 0.36000001430511475 },
 				{ "name": "y", "value": 0.375 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "400" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "399"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 86.97640499999999 },
 				{ "name": "x", "value": 0.38999998569488525 },
 				{ "name": "y", "value": 0.4375 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "400"
 		},
 		{
 			"archetype": "TapNote",
@@ -5556,38 +6048,49 @@
 				{ "name": "x", "value": 0.6100000143051147 },
 				{ "name": "y", "value": 0.5 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "402" }
+			],
+			"ref": "401"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 87.054939 },
 				{ "name": "x", "value": 0.6399999856948853 },
 				{ "name": "y", "value": 0.5625 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "403" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "402"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 87.094206 },
 				{ "name": "x", "value": 0.6700000166893005 },
 				{ "name": "y", "value": 0.625 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "404" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "403"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 87.133473 },
 				{ "name": "x", "value": 0.699999988079071 },
 				{ "name": "y", "value": 0.6875 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "404"
 		},
 		{
 			"archetype": "TapNote",
@@ -5596,38 +6099,49 @@
 				{ "name": "x", "value": 0.38999998569488525 },
 				{ "name": "y", "value": 0.75 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "406" }
+			],
+			"ref": "405"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 87.212007 },
 				{ "name": "x", "value": 0.36000001430511475 },
 				{ "name": "y", "value": 0.8125 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "407" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "406"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 87.251274 },
 				{ "name": "x", "value": 0.33000001311302185 },
 				{ "name": "y", "value": 0.875 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "408" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "407"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 87.290541 },
 				{ "name": "x", "value": 0.30000001192092896 },
 				{ "name": "y", "value": 0.9375 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "408"
 		},
 		{
 			"archetype": "TapNote",
@@ -5636,38 +6150,49 @@
 				{ "name": "x", "value": 0.800000011920929 },
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "410" }
+			],
+			"ref": "409"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 87.36907500000001 },
 				{ "name": "x", "value": 0.800000011920929 },
 				{ "name": "y", "value": 0.0625 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "411" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "410"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 87.40834199999999 },
 				{ "name": "x", "value": 0.800000011920929 },
 				{ "name": "y", "value": 0.125 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "412" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "411"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 87.447609 },
 				{ "name": "x", "value": 0.800000011920929 },
 				{ "name": "y", "value": 0.1875 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "412"
 		},
 		{
 			"archetype": "TapNote",
@@ -5676,38 +6201,49 @@
 				{ "name": "x", "value": 0.20000000298023224 },
 				{ "name": "y", "value": 0.25 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "414" }
+			],
+			"ref": "413"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 87.526143 },
 				{ "name": "x", "value": 0.20000000298023224 },
 				{ "name": "y", "value": 0.3125 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "415" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "414"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 87.56541 },
 				{ "name": "x", "value": 0.20000000298023224 },
 				{ "name": "y", "value": 0.375 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "416" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "415"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 87.60467700000001 },
 				{ "name": "x", "value": 0.20000000298023224 },
 				{ "name": "y", "value": 0.4375 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "416"
 		},
 		{
 			"archetype": "TapNote",
@@ -5716,38 +6252,49 @@
 				{ "name": "x", "value": 0.800000011920929 },
 				{ "name": "y", "value": 0.5 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "418" }
+			],
+			"ref": "417"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 87.683211 },
 				{ "name": "x", "value": 0.800000011920929 },
 				{ "name": "y", "value": 0.5625 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "419" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "418"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 87.722478 },
 				{ "name": "x", "value": 0.800000011920929 },
 				{ "name": "y", "value": 0.625 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "420" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "419"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 87.761745 },
 				{ "name": "x", "value": 0.800000011920929 },
 				{ "name": "y", "value": 0.6875 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "420"
 		},
 		{
 			"archetype": "TapNote",
@@ -5776,8 +6323,11 @@
 				{ "name": "x", "value": 0.699999988079071 },
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "424" },
+				{ "name": "type", "value": 0 }
+			],
+			"ref": "423"
 		},
 		{
 			"archetype": "DragNote",
@@ -5786,8 +6336,11 @@
 				{ "name": "x", "value": 0.6600000262260437 },
 				{ "name": "y", "value": 0.0625 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "425" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "424"
 		},
 		{
 			"archetype": "DragNote",
@@ -5796,8 +6349,11 @@
 				{ "name": "x", "value": 0.6200000047683716 },
 				{ "name": "y", "value": 0.125 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "426" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "425"
 		},
 		{
 			"archetype": "DragNote",
@@ -5806,8 +6362,11 @@
 				{ "name": "x", "value": 0.5899999737739563 },
 				{ "name": "y", "value": 0.1875 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "427" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "426"
 		},
 		{
 			"archetype": "DragNote",
@@ -5816,8 +6375,11 @@
 				{ "name": "x", "value": 0.5600000023841858 },
 				{ "name": "y", "value": 0.25 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "428" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "427"
 		},
 		{
 			"archetype": "DragNote",
@@ -5826,8 +6388,11 @@
 				{ "name": "x", "value": 0.5400000214576721 },
 				{ "name": "y", "value": 0.3125 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "429" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "428"
 		},
 		{
 			"archetype": "DragNote",
@@ -5836,8 +6401,11 @@
 				{ "name": "x", "value": 0.5199999809265137 },
 				{ "name": "y", "value": 0.375 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "430" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "429"
 		},
 		{
 			"archetype": "DragNote",
@@ -5846,8 +6414,11 @@
 				{ "name": "x", "value": 0.5099999904632568 },
 				{ "name": "y", "value": 0.4375 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "431" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "430"
 		},
 		{
 			"archetype": "DragNote",
@@ -5856,8 +6427,11 @@
 				{ "name": "x", "value": 0.5099999904632568 },
 				{ "name": "y", "value": 0.5 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "432" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "431"
 		},
 		{
 			"archetype": "DragNote",
@@ -5866,8 +6440,11 @@
 				{ "name": "x", "value": 0.5199999809265137 },
 				{ "name": "y", "value": 0.5625 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "433" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "432"
 		},
 		{
 			"archetype": "DragNote",
@@ -5876,8 +6453,11 @@
 				{ "name": "x", "value": 0.5400000214576721 },
 				{ "name": "y", "value": 0.625 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "434" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "433"
 		},
 		{
 			"archetype": "DragNote",
@@ -5886,8 +6466,11 @@
 				{ "name": "x", "value": 0.5600000023841858 },
 				{ "name": "y", "value": 0.6875 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "436" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "434"
 		},
 		{
 			"archetype": "TapNote",
@@ -5906,8 +6489,11 @@
 				{ "name": "x", "value": 0.5899999737739563 },
 				{ "name": "y", "value": 0.75 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "437" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "436"
 		},
 		{
 			"archetype": "DragNote",
@@ -5916,8 +6502,11 @@
 				{ "name": "x", "value": 0.6200000047683716 },
 				{ "name": "y", "value": 0.8125 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "438" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "437"
 		},
 		{
 			"archetype": "DragNote",
@@ -5926,8 +6515,11 @@
 				{ "name": "x", "value": 0.6600000262260437 },
 				{ "name": "y", "value": 0.875 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "439" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "438"
 		},
 		{
 			"archetype": "DragNote",
@@ -5936,8 +6528,11 @@
 				{ "name": "x", "value": 0.699999988079071 },
 				{ "name": "y", "value": 0.9375 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "439"
 		},
 		{
 			"archetype": "FlickNote",
@@ -5956,8 +6551,11 @@
 				{ "name": "x", "value": 0.800000011920929 },
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "442" },
+				{ "name": "type", "value": 0 }
+			],
+			"ref": "441"
 		},
 		{
 			"archetype": "DragNote",
@@ -5966,8 +6564,11 @@
 				{ "name": "x", "value": 0.800000011920929 },
 				{ "name": "y", "value": 0.0625 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "443" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "442"
 		},
 		{
 			"archetype": "DragNote",
@@ -5976,8 +6577,11 @@
 				{ "name": "x", "value": 0.800000011920929 },
 				{ "name": "y", "value": 0.125 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "444" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "443"
 		},
 		{
 			"archetype": "DragNote",
@@ -5986,8 +6590,11 @@
 				{ "name": "x", "value": 0.800000011920929 },
 				{ "name": "y", "value": 0.1875 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "445" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "444"
 		},
 		{
 			"archetype": "DragNote",
@@ -5996,8 +6603,11 @@
 				{ "name": "x", "value": 0.800000011920929 },
 				{ "name": "y", "value": 0.25 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "446" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "445"
 		},
 		{
 			"archetype": "DragNote",
@@ -6006,8 +6616,11 @@
 				{ "name": "x", "value": 0.800000011920929 },
 				{ "name": "y", "value": 0.3125 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "447" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "446"
 		},
 		{
 			"archetype": "DragNote",
@@ -6016,8 +6629,11 @@
 				{ "name": "x", "value": 0.800000011920929 },
 				{ "name": "y", "value": 0.375 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "447"
 		},
 		{
 			"archetype": "DragNote",
@@ -6026,8 +6642,11 @@
 				{ "name": "x", "value": 0.20000000298023224 },
 				{ "name": "y", "value": 0.5 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "450" },
+				{ "name": "type", "value": 0 }
+			],
+			"ref": "448"
 		},
 		{
 			"archetype": "TapNote",
@@ -6046,8 +6665,11 @@
 				{ "name": "x", "value": 0.20000000298023224 },
 				{ "name": "y", "value": 0.5625 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "451" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "450"
 		},
 		{
 			"archetype": "DragNote",
@@ -6056,8 +6678,11 @@
 				{ "name": "x", "value": 0.20000000298023224 },
 				{ "name": "y", "value": 0.625 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "452" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "451"
 		},
 		{
 			"archetype": "DragNote",
@@ -6066,8 +6691,11 @@
 				{ "name": "x", "value": 0.20000000298023224 },
 				{ "name": "y", "value": 0.6875 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "453" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "452"
 		},
 		{
 			"archetype": "DragNote",
@@ -6076,8 +6704,11 @@
 				{ "name": "x", "value": 0.20000000298023224 },
 				{ "name": "y", "value": 0.75 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "454" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "453"
 		},
 		{
 			"archetype": "DragNote",
@@ -6086,8 +6717,11 @@
 				{ "name": "x", "value": 0.20000000298023224 },
 				{ "name": "y", "value": 0.8125 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "455" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "454"
 		},
 		{
 			"archetype": "DragNote",
@@ -6096,8 +6730,11 @@
 				{ "name": "x", "value": 0.20000000298023224 },
 				{ "name": "y", "value": 0.875 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "455"
 		},
 		{
 			"archetype": "TapNote",
@@ -6116,8 +6753,11 @@
 				{ "name": "x", "value": 0.6499999761581421 },
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "458" },
+				{ "name": "type", "value": 0 }
+			],
+			"ref": "457"
 		},
 		{
 			"archetype": "DragNote",
@@ -6126,8 +6766,11 @@
 				{ "name": "x", "value": 0.6100000143051147 },
 				{ "name": "y", "value": 0.0625 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "459" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "458"
 		},
 		{
 			"archetype": "DragNote",
@@ -6136,8 +6779,11 @@
 				{ "name": "x", "value": 0.5799999833106995 },
 				{ "name": "y", "value": 0.125 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "460" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "459"
 		},
 		{
 			"archetype": "DragNote",
@@ -6146,8 +6792,11 @@
 				{ "name": "x", "value": 0.5600000023841858 },
 				{ "name": "y", "value": 0.1875 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "461" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "460"
 		},
 		{
 			"archetype": "DragNote",
@@ -6156,8 +6805,11 @@
 				{ "name": "x", "value": 0.550000011920929 },
 				{ "name": "y", "value": 0.25 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "462" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "461"
 		},
 		{
 			"archetype": "DragNote",
@@ -6166,8 +6818,11 @@
 				{ "name": "x", "value": 0.5600000023841858 },
 				{ "name": "y", "value": 0.3125 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "463" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "462"
 		},
 		{
 			"archetype": "DragNote",
@@ -6176,8 +6831,11 @@
 				{ "name": "x", "value": 0.5799999833106995 },
 				{ "name": "y", "value": 0.375 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "463"
 		},
 		{
 			"archetype": "DragNote",
@@ -6186,8 +6844,11 @@
 				{ "name": "x", "value": 0.3499999940395355 },
 				{ "name": "y", "value": 0.5 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "466" },
+				{ "name": "type", "value": 0 }
+			],
+			"ref": "464"
 		},
 		{
 			"archetype": "TapNote",
@@ -6206,8 +6867,11 @@
 				{ "name": "x", "value": 0.38999998569488525 },
 				{ "name": "y", "value": 0.5625 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "467" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "466"
 		},
 		{
 			"archetype": "DragNote",
@@ -6216,8 +6880,11 @@
 				{ "name": "x", "value": 0.41999998688697815 },
 				{ "name": "y", "value": 0.625 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "468" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "467"
 		},
 		{
 			"archetype": "DragNote",
@@ -6226,8 +6893,11 @@
 				{ "name": "x", "value": 0.4399999976158142 },
 				{ "name": "y", "value": 0.6875 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "469" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "468"
 		},
 		{
 			"archetype": "DragNote",
@@ -6236,8 +6906,11 @@
 				{ "name": "x", "value": 0.44999998807907104 },
 				{ "name": "y", "value": 0.75 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "470" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "469"
 		},
 		{
 			"archetype": "DragNote",
@@ -6246,8 +6919,11 @@
 				{ "name": "x", "value": 0.4399999976158142 },
 				{ "name": "y", "value": 0.8125 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "471" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "470"
 		},
 		{
 			"archetype": "DragNote",
@@ -6256,8 +6932,11 @@
 				{ "name": "x", "value": 0.41999998688697815 },
 				{ "name": "y", "value": 0.875 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "471"
 		},
 		{
 			"archetype": "TapNote",
@@ -6276,8 +6955,11 @@
 				{ "name": "x", "value": 0.75 },
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "474" },
+				{ "name": "type", "value": 0 }
+			],
+			"ref": "473"
 		},
 		{
 			"archetype": "DragNote",
@@ -6286,8 +6968,11 @@
 				{ "name": "x", "value": 0.7699999809265137 },
 				{ "name": "y", "value": 0.0625 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "475" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "474"
 		},
 		{
 			"archetype": "DragNote",
@@ -6296,8 +6981,11 @@
 				{ "name": "x", "value": 0.7900000214576721 },
 				{ "name": "y", "value": 0.125 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "476" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "475"
 		},
 		{
 			"archetype": "DragNote",
@@ -6306,8 +6994,11 @@
 				{ "name": "x", "value": 0.8100000023841858 },
 				{ "name": "y", "value": 0.1875 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "477" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "476"
 		},
 		{
 			"archetype": "DragNote",
@@ -6316,8 +7007,11 @@
 				{ "name": "x", "value": 0.8299999833106995 },
 				{ "name": "y", "value": 0.25 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "478" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "477"
 		},
 		{
 			"archetype": "DragNote",
@@ -6326,8 +7020,11 @@
 				{ "name": "x", "value": 0.8500000238418579 },
 				{ "name": "y", "value": 0.3125 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "479" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "478"
 		},
 		{
 			"archetype": "DragNote",
@@ -6336,8 +7033,11 @@
 				{ "name": "x", "value": 0.8700000047683716 },
 				{ "name": "y", "value": 0.375 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "479"
 		},
 		{
 			"archetype": "DragNote",
@@ -6346,8 +7046,11 @@
 				{ "name": "x", "value": 0.09000000357627869 },
 				{ "name": "y", "value": 0.5 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "482" },
+				{ "name": "type", "value": 0 }
+			],
+			"ref": "480"
 		},
 		{
 			"archetype": "TapNote",
@@ -6366,8 +7069,11 @@
 				{ "name": "x", "value": 0.10999999940395355 },
 				{ "name": "y", "value": 0.5625 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "483" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "482"
 		},
 		{
 			"archetype": "DragNote",
@@ -6376,8 +7082,11 @@
 				{ "name": "x", "value": 0.12999999523162842 },
 				{ "name": "y", "value": 0.625 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "484" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "483"
 		},
 		{
 			"archetype": "DragNote",
@@ -6386,8 +7095,11 @@
 				{ "name": "x", "value": 0.15000000596046448 },
 				{ "name": "y", "value": 0.6875 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "485" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "484"
 		},
 		{
 			"archetype": "DragNote",
@@ -6396,8 +7108,11 @@
 				{ "name": "x", "value": 0.17000000178813934 },
 				{ "name": "y", "value": 0.75 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "486" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "485"
 		},
 		{
 			"archetype": "DragNote",
@@ -6406,8 +7121,11 @@
 				{ "name": "x", "value": 0.1899999976158142 },
 				{ "name": "y", "value": 0.8125 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "487" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "486"
 		},
 		{
 			"archetype": "DragNote",
@@ -6416,8 +7134,11 @@
 				{ "name": "x", "value": 0.20999999344348907 },
 				{ "name": "y", "value": 0.875 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "487"
 		},
 		{
 			"archetype": "HoldStartNote",
@@ -6576,8 +7297,11 @@
 				{ "name": "x", "value": 0.3499999940395355 },
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "504" },
+				{ "name": "type", "value": 0 }
+			],
+			"ref": "503"
 		},
 		{
 			"archetype": "DragNote",
@@ -6586,8 +7310,11 @@
 				{ "name": "x", "value": 0.3100000023841858 },
 				{ "name": "y", "value": 0.0625 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "505" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "504"
 		},
 		{
 			"archetype": "DragNote",
@@ -6596,8 +7323,11 @@
 				{ "name": "x", "value": 0.2800000011920929 },
 				{ "name": "y", "value": 0.125 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "506" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "505"
 		},
 		{
 			"archetype": "DragNote",
@@ -6606,8 +7336,11 @@
 				{ "name": "x", "value": 0.25999999046325684 },
 				{ "name": "y", "value": 0.1875 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "507" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "506"
 		},
 		{
 			"archetype": "DragNote",
@@ -6616,8 +7349,11 @@
 				{ "name": "x", "value": 0.25 },
 				{ "name": "y", "value": 0.25 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "508" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "507"
 		},
 		{
 			"archetype": "DragNote",
@@ -6626,8 +7362,11 @@
 				{ "name": "x", "value": 0.25999999046325684 },
 				{ "name": "y", "value": 0.3125 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "509" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "508"
 		},
 		{
 			"archetype": "DragNote",
@@ -6636,8 +7375,11 @@
 				{ "name": "x", "value": 0.2800000011920929 },
 				{ "name": "y", "value": 0.375 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "510" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "509"
 		},
 		{
 			"archetype": "DragNote",
@@ -6646,8 +7388,11 @@
 				{ "name": "x", "value": 0.3100000023841858 },
 				{ "name": "y", "value": 0.4375 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "511" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "510"
 		},
 		{
 			"archetype": "DragNote",
@@ -6656,8 +7401,11 @@
 				{ "name": "x", "value": 0.3499999940395355 },
 				{ "name": "y", "value": 0.5 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "512" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "511"
 		},
 		{
 			"archetype": "DragNote",
@@ -6666,8 +7414,11 @@
 				{ "name": "x", "value": 0.38999998569488525 },
 				{ "name": "y", "value": 0.5625 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "513" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "512"
 		},
 		{
 			"archetype": "DragNote",
@@ -6676,8 +7427,11 @@
 				{ "name": "x", "value": 0.41999998688697815 },
 				{ "name": "y", "value": 0.625 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "514" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "513"
 		},
 		{
 			"archetype": "DragNote",
@@ -6686,8 +7440,11 @@
 				{ "name": "x", "value": 0.4399999976158142 },
 				{ "name": "y", "value": 0.6875 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "515" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "514"
 		},
 		{
 			"archetype": "DragNote",
@@ -6696,8 +7453,11 @@
 				{ "name": "x", "value": 0.44999998807907104 },
 				{ "name": "y", "value": 0.75 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "516" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "515"
 		},
 		{
 			"archetype": "DragNote",
@@ -6706,8 +7466,11 @@
 				{ "name": "x", "value": 0.4399999976158142 },
 				{ "name": "y", "value": 0.8125 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "517" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "516"
 		},
 		{
 			"archetype": "DragNote",
@@ -6716,8 +7479,11 @@
 				{ "name": "x", "value": 0.41999998688697815 },
 				{ "name": "y", "value": 0.875 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "518" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "517"
 		},
 		{
 			"archetype": "DragNote",
@@ -6726,8 +7492,11 @@
 				{ "name": "x", "value": 0.38999998569488525 },
 				{ "name": "y", "value": 0.9375 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "519" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "518"
 		},
 		{
 			"archetype": "DragNote",
@@ -6736,8 +7505,11 @@
 				{ "name": "x", "value": 0.3499999940395355 },
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "521" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "519"
 		},
 		{
 			"archetype": "FlickNote",
@@ -6756,8 +7528,11 @@
 				{ "name": "x", "value": 0.28999999165534973 },
 				{ "name": "y", "value": 0.0625 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "522" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "521"
 		},
 		{
 			"archetype": "DragNote",
@@ -6766,8 +7541,11 @@
 				{ "name": "x", "value": 0.23999999463558197 },
 				{ "name": "y", "value": 0.125 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "523" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "522"
 		},
 		{
 			"archetype": "DragNote",
@@ -6776,8 +7554,11 @@
 				{ "name": "x", "value": 0.20000000298023224 },
 				{ "name": "y", "value": 0.1875 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "524" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "523"
 		},
 		{
 			"archetype": "DragNote",
@@ -6786,8 +7567,11 @@
 				{ "name": "x", "value": 0.17000000178813934 },
 				{ "name": "y", "value": 0.25 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "525" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "524"
 		},
 		{
 			"archetype": "DragNote",
@@ -6796,8 +7580,11 @@
 				{ "name": "x", "value": 0.15000000596046448 },
 				{ "name": "y", "value": 0.3125 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "526" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "525"
 		},
 		{
 			"archetype": "DragNote",
@@ -6806,8 +7593,11 @@
 				{ "name": "x", "value": 0.14000000059604645 },
 				{ "name": "y", "value": 0.375 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "527" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "526"
 		},
 		{
 			"archetype": "DragNote",
@@ -6816,8 +7606,11 @@
 				{ "name": "x", "value": 0.14000000059604645 },
 				{ "name": "y", "value": 0.4375 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "528" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "527"
 		},
 		{
 			"archetype": "DragNote",
@@ -6826,8 +7619,11 @@
 				{ "name": "x", "value": 0.15000000596046448 },
 				{ "name": "y", "value": 0.5 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "529" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "528"
 		},
 		{
 			"archetype": "DragNote",
@@ -6836,8 +7632,11 @@
 				{ "name": "x", "value": 0.17000000178813934 },
 				{ "name": "y", "value": 0.5625 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "530" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "529"
 		},
 		{
 			"archetype": "DragNote",
@@ -6846,8 +7645,11 @@
 				{ "name": "x", "value": 0.1899999976158142 },
 				{ "name": "y", "value": 0.625 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "531" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "530"
 		},
 		{
 			"archetype": "DragNote",
@@ -6856,8 +7658,11 @@
 				{ "name": "x", "value": 0.2199999988079071 },
 				{ "name": "y", "value": 0.6875 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "532" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "531"
 		},
 		{
 			"archetype": "DragNote",
@@ -6866,8 +7671,11 @@
 				{ "name": "x", "value": 0.25 },
 				{ "name": "y", "value": 0.75 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "533" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "532"
 		},
 		{
 			"archetype": "DragNote",
@@ -6876,8 +7684,11 @@
 				{ "name": "x", "value": 0.28999999165534973 },
 				{ "name": "y", "value": 0.8125 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "534" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "533"
 		},
 		{
 			"archetype": "DragNote",
@@ -6886,8 +7697,11 @@
 				{ "name": "x", "value": 0.33000001311302185 },
 				{ "name": "y", "value": 0.875 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "534"
 		},
 		{
 			"archetype": "DragNote",
@@ -6896,8 +7710,11 @@
 				{ "name": "x", "value": 0.4000000059604645 },
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "537" },
+				{ "name": "type", "value": 0 }
+			],
+			"ref": "535"
 		},
 		{
 			"archetype": "TapNote",
@@ -6916,8 +7733,11 @@
 				{ "name": "x", "value": 0.41999998688697815 },
 				{ "name": "y", "value": 0.0625 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "538" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "537"
 		},
 		{
 			"archetype": "DragNote",
@@ -6926,8 +7746,11 @@
 				{ "name": "x", "value": 0.4399999976158142 },
 				{ "name": "y", "value": 0.125 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "539" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "538"
 		},
 		{
 			"archetype": "DragNote",
@@ -6936,8 +7759,11 @@
 				{ "name": "x", "value": 0.46000000834465027 },
 				{ "name": "y", "value": 0.1875 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "540" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "539"
 		},
 		{
 			"archetype": "DragNote",
@@ -6946,8 +7772,11 @@
 				{ "name": "x", "value": 0.47999998927116394 },
 				{ "name": "y", "value": 0.25 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "541" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "540"
 		},
 		{
 			"archetype": "DragNote",
@@ -6956,8 +7785,11 @@
 				{ "name": "x", "value": 0.5 },
 				{ "name": "y", "value": 0.3125 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "542" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "541"
 		},
 		{
 			"archetype": "DragNote",
@@ -6966,8 +7798,11 @@
 				{ "name": "x", "value": 0.5199999809265137 },
 				{ "name": "y", "value": 0.375 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "542"
 		},
 		{
 			"archetype": "DragNote",
@@ -6976,8 +7811,11 @@
 				{ "name": "x", "value": 0.5199999809265137 },
 				{ "name": "y", "value": 0.5 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "545" },
+				{ "name": "type", "value": 0 }
+			],
+			"ref": "543"
 		},
 		{
 			"archetype": "TapNote",
@@ -6996,8 +7834,11 @@
 				{ "name": "x", "value": 0.5 },
 				{ "name": "y", "value": 0.5625 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "546" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "545"
 		},
 		{
 			"archetype": "DragNote",
@@ -7006,8 +7847,11 @@
 				{ "name": "x", "value": 0.47999998927116394 },
 				{ "name": "y", "value": 0.625 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "547" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "546"
 		},
 		{
 			"archetype": "DragNote",
@@ -7016,8 +7860,11 @@
 				{ "name": "x", "value": 0.46000000834465027 },
 				{ "name": "y", "value": 0.6875 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "548" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "547"
 		},
 		{
 			"archetype": "DragNote",
@@ -7026,8 +7873,11 @@
 				{ "name": "x", "value": 0.4399999976158142 },
 				{ "name": "y", "value": 0.75 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "549" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "548"
 		},
 		{
 			"archetype": "DragNote",
@@ -7036,8 +7886,11 @@
 				{ "name": "x", "value": 0.41999998688697815 },
 				{ "name": "y", "value": 0.8125 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "550" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "549"
 		},
 		{
 			"archetype": "DragNote",
@@ -7046,8 +7899,11 @@
 				{ "name": "x", "value": 0.4000000059604645 },
 				{ "name": "y", "value": 0.875 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "550"
 		},
 		{
 			"archetype": "DragNote",
@@ -7056,8 +7912,11 @@
 				{ "name": "x", "value": 0.3499999940395355 },
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "553" },
+				{ "name": "type", "value": 0 }
+			],
+			"ref": "551"
 		},
 		{
 			"archetype": "FlickNote",
@@ -7076,8 +7935,11 @@
 				{ "name": "x", "value": 0.28999999165534973 },
 				{ "name": "y", "value": 0.0625 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "554" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "553"
 		},
 		{
 			"archetype": "DragNote",
@@ -7086,8 +7948,11 @@
 				{ "name": "x", "value": 0.23999999463558197 },
 				{ "name": "y", "value": 0.125 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "555" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "554"
 		},
 		{
 			"archetype": "DragNote",
@@ -7096,8 +7961,11 @@
 				{ "name": "x", "value": 0.20000000298023224 },
 				{ "name": "y", "value": 0.1875 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "556" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "555"
 		},
 		{
 			"archetype": "DragNote",
@@ -7106,8 +7974,11 @@
 				{ "name": "x", "value": 0.17000000178813934 },
 				{ "name": "y", "value": 0.25 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "557" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "556"
 		},
 		{
 			"archetype": "DragNote",
@@ -7116,8 +7987,11 @@
 				{ "name": "x", "value": 0.15000000596046448 },
 				{ "name": "y", "value": 0.3125 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "558" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "557"
 		},
 		{
 			"archetype": "DragNote",
@@ -7126,8 +8000,11 @@
 				{ "name": "x", "value": 0.14000000059604645 },
 				{ "name": "y", "value": 0.375 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "559" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "558"
 		},
 		{
 			"archetype": "DragNote",
@@ -7136,8 +8013,11 @@
 				{ "name": "x", "value": 0.14000000059604645 },
 				{ "name": "y", "value": 0.4375 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "560" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "559"
 		},
 		{
 			"archetype": "DragNote",
@@ -7146,8 +8026,11 @@
 				{ "name": "x", "value": 0.15000000596046448 },
 				{ "name": "y", "value": 0.5 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "561" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "560"
 		},
 		{
 			"archetype": "DragNote",
@@ -7156,8 +8039,11 @@
 				{ "name": "x", "value": 0.17000000178813934 },
 				{ "name": "y", "value": 0.5625 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "562" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "561"
 		},
 		{
 			"archetype": "DragNote",
@@ -7166,8 +8052,11 @@
 				{ "name": "x", "value": 0.1899999976158142 },
 				{ "name": "y", "value": 0.625 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "563" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "562"
 		},
 		{
 			"archetype": "DragNote",
@@ -7176,8 +8065,11 @@
 				{ "name": "x", "value": 0.2199999988079071 },
 				{ "name": "y", "value": 0.6875 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "564" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "563"
 		},
 		{
 			"archetype": "DragNote",
@@ -7186,8 +8078,11 @@
 				{ "name": "x", "value": 0.25 },
 				{ "name": "y", "value": 0.75 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "565" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "564"
 		},
 		{
 			"archetype": "DragNote",
@@ -7196,8 +8091,11 @@
 				{ "name": "x", "value": 0.28999999165534973 },
 				{ "name": "y", "value": 0.8125 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "566" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "565"
 		},
 		{
 			"archetype": "DragNote",
@@ -7206,8 +8104,11 @@
 				{ "name": "x", "value": 0.33000001311302185 },
 				{ "name": "y", "value": 0.875 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "566"
 		},
 		{
 			"archetype": "HoldStartNote",
@@ -7276,38 +8177,49 @@
 				{ "name": "x", "value": 0.20000000298023224 },
 				{ "name": "y", "value": 0.5 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "574" }
+			],
+			"ref": "573"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 96.47901900000001 },
 				{ "name": "x", "value": 0.17000000178813934 },
 				{ "name": "y", "value": 0.5625 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "575" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "574"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 96.518286 },
 				{ "name": "x", "value": 0.14000000059604645 },
 				{ "name": "y", "value": 0.625 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "576" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "575"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 96.55755300000001 },
 				{ "name": "x", "value": 0.10999999940395355 },
 				{ "name": "y", "value": 0.6875 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "576"
 		},
 		{
 			"archetype": "TapNote",
@@ -7316,38 +8228,49 @@
 				{ "name": "x", "value": 0.8999999761581421 },
 				{ "name": "y", "value": 0.75 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "578" }
+			],
+			"ref": "577"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 96.636087 },
 				{ "name": "x", "value": 0.8700000047683716 },
 				{ "name": "y", "value": 0.8125 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "579" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "578"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 96.675354 },
 				{ "name": "x", "value": 0.8399999737739563 },
 				{ "name": "y", "value": 0.875 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "580" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "579"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 96.71462100000001 },
 				{ "name": "x", "value": 0.8100000023841858 },
 				{ "name": "y", "value": 0.9375 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "580"
 		},
 		{
 			"archetype": "TapNote",
@@ -7356,38 +8279,49 @@
 				{ "name": "x", "value": 0.30000001192092896 },
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "582" }
+			],
+			"ref": "581"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 96.79315500000001 },
 				{ "name": "x", "value": 0.33000001311302185 },
 				{ "name": "y", "value": 0.0625 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "583" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "582"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 96.83242199999998 },
 				{ "name": "x", "value": 0.36000001430511475 },
 				{ "name": "y", "value": 0.125 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "584" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "583"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 96.87168899999999 },
 				{ "name": "x", "value": 0.38999998569488525 },
 				{ "name": "y", "value": 0.1875 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "584"
 		},
 		{
 			"archetype": "TapNote",
@@ -7396,38 +8330,49 @@
 				{ "name": "x", "value": 0.699999988079071 },
 				{ "name": "y", "value": 0.25 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "586" }
+			],
+			"ref": "585"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 96.950223 },
 				{ "name": "x", "value": 0.6700000166893005 },
 				{ "name": "y", "value": 0.3125 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "587" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "586"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 96.98948999999999 },
 				{ "name": "x", "value": 0.6399999856948853 },
 				{ "name": "y", "value": 0.375 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "588" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "587"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 97.028757 },
 				{ "name": "x", "value": 0.6100000143051147 },
 				{ "name": "y", "value": 0.4375 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "588"
 		},
 		{
 			"archetype": "TapNote",
@@ -7436,38 +8381,49 @@
 				{ "name": "x", "value": 0.38999998569488525 },
 				{ "name": "y", "value": 0.5 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "590" }
+			],
+			"ref": "589"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 97.10729099999999 },
 				{ "name": "x", "value": 0.36000001430511475 },
 				{ "name": "y", "value": 0.5625 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "591" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "590"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 97.14655799999998 },
 				{ "name": "x", "value": 0.33000001311302185 },
 				{ "name": "y", "value": 0.625 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "592" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "591"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 97.185825 },
 				{ "name": "x", "value": 0.30000001192092896 },
 				{ "name": "y", "value": 0.6875 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "592"
 		},
 		{
 			"archetype": "TapNote",
@@ -7476,38 +8432,49 @@
 				{ "name": "x", "value": 0.6100000143051147 },
 				{ "name": "y", "value": 0.75 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "594" }
+			],
+			"ref": "593"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 97.264359 },
 				{ "name": "x", "value": 0.6399999856948853 },
 				{ "name": "y", "value": 0.8125 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "595" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "594"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 97.303626 },
 				{ "name": "x", "value": 0.6700000166893005 },
 				{ "name": "y", "value": 0.875 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "596" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "595"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 97.34289299999999 },
 				{ "name": "x", "value": 0.699999988079071 },
 				{ "name": "y", "value": 0.9375 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "596"
 		},
 		{
 			"archetype": "TapNote",
@@ -7516,38 +8483,49 @@
 				{ "name": "x", "value": 0.20000000298023224 },
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "598" }
+			],
+			"ref": "597"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 97.421427 },
 				{ "name": "x", "value": 0.20000000298023224 },
 				{ "name": "y", "value": 0.0625 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "599" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "598"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 97.460694 },
 				{ "name": "x", "value": 0.20000000298023224 },
 				{ "name": "y", "value": 0.125 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "600" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "599"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 97.499961 },
 				{ "name": "x", "value": 0.20000000298023224 },
 				{ "name": "y", "value": 0.1875 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "600"
 		},
 		{
 			"archetype": "TapNote",
@@ -7556,38 +8534,49 @@
 				{ "name": "x", "value": 0.800000011920929 },
 				{ "name": "y", "value": 0.25 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "602" }
+			],
+			"ref": "601"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 97.57849499999999 },
 				{ "name": "x", "value": 0.800000011920929 },
 				{ "name": "y", "value": 0.3125 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "603" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "602"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 97.617762 },
 				{ "name": "x", "value": 0.800000011920929 },
 				{ "name": "y", "value": 0.375 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "604" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "603"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 97.657029 },
 				{ "name": "x", "value": 0.800000011920929 },
 				{ "name": "y", "value": 0.4375 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "604"
 		},
 		{
 			"archetype": "TapNote",
@@ -7596,38 +8585,49 @@
 				{ "name": "x", "value": 0.20000000298023224 },
 				{ "name": "y", "value": 0.5 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "606" }
+			],
+			"ref": "605"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 97.735563 },
 				{ "name": "x", "value": 0.20000000298023224 },
 				{ "name": "y", "value": 0.5625 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "607" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "606"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 97.77483000000001 },
 				{ "name": "x", "value": 0.20000000298023224 },
 				{ "name": "y", "value": 0.625 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "608" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "607"
 		},
 		{
-			"archetype": "DragNote",
+			"archetype": "DragTapChildNote",
 			"data": [
 				{ "name": "#BEAT", "value": 97.81409699999999 },
 				{ "name": "x", "value": 0.20000000298023224 },
 				{ "name": "y", "value": 0.6875 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 3 }
+			],
+			"ref": "608"
 		},
 		{
 			"archetype": "TapNote",
@@ -7646,8 +8646,11 @@
 				{ "name": "x", "value": 0.30000001192092896 },
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "612" },
+				{ "name": "type", "value": 0 }
+			],
+			"ref": "610"
 		},
 		{
 			"archetype": "TapNote",
@@ -7666,8 +8669,11 @@
 				{ "name": "x", "value": 0.3400000035762787 },
 				{ "name": "y", "value": 0.0625 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "613" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "612"
 		},
 		{
 			"archetype": "DragNote",
@@ -7676,8 +8682,11 @@
 				{ "name": "x", "value": 0.3799999952316284 },
 				{ "name": "y", "value": 0.125 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "614" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "613"
 		},
 		{
 			"archetype": "DragNote",
@@ -7686,8 +8695,11 @@
 				{ "name": "x", "value": 0.4099999964237213 },
 				{ "name": "y", "value": 0.1875 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "615" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "614"
 		},
 		{
 			"archetype": "DragNote",
@@ -7696,8 +8708,11 @@
 				{ "name": "x", "value": 0.4399999976158142 },
 				{ "name": "y", "value": 0.25 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "616" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "615"
 		},
 		{
 			"archetype": "DragNote",
@@ -7706,8 +8721,11 @@
 				{ "name": "x", "value": 0.46000000834465027 },
 				{ "name": "y", "value": 0.3125 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "617" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "616"
 		},
 		{
 			"archetype": "DragNote",
@@ -7716,8 +8734,11 @@
 				{ "name": "x", "value": 0.47999998927116394 },
 				{ "name": "y", "value": 0.375 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "618" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "617"
 		},
 		{
 			"archetype": "DragNote",
@@ -7726,8 +8747,11 @@
 				{ "name": "x", "value": 0.49000000953674316 },
 				{ "name": "y", "value": 0.4375 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "619" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "618"
 		},
 		{
 			"archetype": "DragNote",
@@ -7736,8 +8760,11 @@
 				{ "name": "x", "value": 0.49000000953674316 },
 				{ "name": "y", "value": 0.5 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "620" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "619"
 		},
 		{
 			"archetype": "DragNote",
@@ -7746,8 +8773,11 @@
 				{ "name": "x", "value": 0.47999998927116394 },
 				{ "name": "y", "value": 0.5625 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "621" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "620"
 		},
 		{
 			"archetype": "DragNote",
@@ -7756,8 +8786,11 @@
 				{ "name": "x", "value": 0.46000000834465027 },
 				{ "name": "y", "value": 0.625 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "622" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "621"
 		},
 		{
 			"archetype": "DragNote",
@@ -7766,8 +8799,11 @@
 				{ "name": "x", "value": 0.4399999976158142 },
 				{ "name": "y", "value": 0.6875 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "623" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "622"
 		},
 		{
 			"archetype": "DragNote",
@@ -7776,8 +8812,11 @@
 				{ "name": "x", "value": 0.4099999964237213 },
 				{ "name": "y", "value": 0.75 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "624" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "623"
 		},
 		{
 			"archetype": "DragNote",
@@ -7786,8 +8825,11 @@
 				{ "name": "x", "value": 0.3799999952316284 },
 				{ "name": "y", "value": 0.8125 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "625" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "624"
 		},
 		{
 			"archetype": "DragNote",
@@ -7796,8 +8838,11 @@
 				{ "name": "x", "value": 0.3400000035762787 },
 				{ "name": "y", "value": 0.875 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "626" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "625"
 		},
 		{
 			"archetype": "DragNote",
@@ -7806,8 +8851,11 @@
 				{ "name": "x", "value": 0.30000001192092896 },
 				{ "name": "y", "value": 0.9375 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "626"
 		},
 		{
 			"archetype": "FlickNote",
@@ -7826,8 +8874,11 @@
 				{ "name": "x", "value": 0.1599999964237213 },
 				{ "name": "y", "value": 0.25 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "629" },
+				{ "name": "type", "value": 0 }
+			],
+			"ref": "628"
 		},
 		{
 			"archetype": "DragNote",
@@ -7836,8 +8887,11 @@
 				{ "name": "x", "value": 0.14000000059604645 },
 				{ "name": "y", "value": 0.3125 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "630" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "629"
 		},
 		{
 			"archetype": "DragNote",
@@ -7846,8 +8900,11 @@
 				{ "name": "x", "value": 0.11999999731779099 },
 				{ "name": "y", "value": 0.375 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "631" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "630"
 		},
 		{
 			"archetype": "DragNote",
@@ -7856,8 +8913,11 @@
 				{ "name": "x", "value": 0.10999999940395355 },
 				{ "name": "y", "value": 0.4375 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "632" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "631"
 		},
 		{
 			"archetype": "DragNote",
@@ -7866,8 +8926,11 @@
 				{ "name": "x", "value": 0.10999999940395355 },
 				{ "name": "y", "value": 0.5 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "634" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "632"
 		},
 		{
 			"archetype": "TapNote",
@@ -7886,8 +8949,11 @@
 				{ "name": "x", "value": 0.11999999731779099 },
 				{ "name": "y", "value": 0.5625 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "635" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "634"
 		},
 		{
 			"archetype": "DragNote",
@@ -7896,8 +8962,11 @@
 				{ "name": "x", "value": 0.14000000059604645 },
 				{ "name": "y", "value": 0.625 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "636" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "635"
 		},
 		{
 			"archetype": "DragNote",
@@ -7906,8 +8975,11 @@
 				{ "name": "x", "value": 0.1599999964237213 },
 				{ "name": "y", "value": 0.6875 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "637" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "636"
 		},
 		{
 			"archetype": "DragNote",
@@ -7916,8 +8988,11 @@
 				{ "name": "x", "value": 0.1899999976158142 },
 				{ "name": "y", "value": 0.75 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "638" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "637"
 		},
 		{
 			"archetype": "DragNote",
@@ -7926,8 +9001,11 @@
 				{ "name": "x", "value": 0.2199999988079071 },
 				{ "name": "y", "value": 0.8125 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "639" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "638"
 		},
 		{
 			"archetype": "DragNote",
@@ -7936,8 +9014,11 @@
 				{ "name": "x", "value": 0.25999999046325684 },
 				{ "name": "y", "value": 0.875 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "640" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "639"
 		},
 		{
 			"archetype": "DragNote",
@@ -7946,8 +9027,11 @@
 				{ "name": "x", "value": 0.30000001192092896 },
 				{ "name": "y", "value": 0.9375 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "640"
 		},
 		{
 			"archetype": "TapNote",
@@ -8936,8 +10020,11 @@
 				{ "name": "x", "value": 0.15000000596046448 },
 				{ "name": "y", "value": 0.25 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.3455839231026683 }
-			]
+				{ "name": "speed", "value": 1.3455839231026683 },
+				{ "name": "nextRef", "ref": "740" },
+				{ "name": "type", "value": 0 }
+			],
+			"ref": "739"
 		},
 		{
 			"archetype": "DragNote",
@@ -8946,8 +10033,11 @@
 				{ "name": "x", "value": 0.25 },
 				{ "name": "y", "value": 0.375 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.2490293936033376 }
-			]
+				{ "name": "speed", "value": 1.2490293936033376 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "740"
 		},
 		{
 			"archetype": "DragNote",
@@ -8956,8 +10046,11 @@
 				{ "name": "x", "value": 0.8500000238418579 },
 				{ "name": "y", "value": 0.625 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.0922736966149673 }
-			]
+				{ "name": "speed", "value": 1.0922736966149673 },
+				{ "name": "nextRef", "ref": "742" },
+				{ "name": "type", "value": 0 }
+			],
+			"ref": "741"
 		},
 		{
 			"archetype": "DragNote",
@@ -8966,8 +10059,11 @@
 				{ "name": "x", "value": 0.75 },
 				{ "name": "y", "value": 0.75 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.0277795010189015 }
-			]
+				{ "name": "speed", "value": 1.0277795010189015 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "742"
 		},
 		{
 			"archetype": "TapNote",
@@ -9256,8 +10352,11 @@
 				{ "name": "x", "value": 0.4000000059604645 },
 				{ "name": "y", "value": 0.75 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "772" },
+				{ "name": "type", "value": 0 }
+			],
+			"ref": "771"
 		},
 		{
 			"archetype": "DragNote",
@@ -9266,18 +10365,24 @@
 				{ "name": "x", "value": 0.30000001192092896 },
 				{ "name": "y", "value": 0.875 },
 				{ "name": "direction", "value": 1 },
-				{ "name": "speed", "value": 1.5916673033335877 }
-			]
+				{ "name": "speed", "value": 1.5916673033335877 },
+				{ "name": "nextRef", "ref": "773" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "772"
 		},
 		{
 			"archetype": "DragNote",
 			"data": [
 				{ "name": "#BEAT", "value": 130.052304 },
 				{ "name": "x", "value": 0.20000000298023224 },
-				{ "name": "y", "value": 0 },
-				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1.591667303333588 }
-			]
+				{ "name": "y", "value": 1 },
+				{ "name": "direction", "value": 1 },
+				{ "name": "speed", "value": 1.591667303333588 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "773"
 		},
 		{
 			"archetype": "TapNote",
@@ -9856,8 +10961,11 @@
 				{ "name": "x", "value": 0.5 },
 				{ "name": "y", "value": 0 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "832" },
+				{ "name": "type", "value": 0 }
+			],
+			"ref": "831"
 		},
 		{
 			"archetype": "DragNote",
@@ -9866,8 +10974,11 @@
 				{ "name": "x", "value": 0.550000011920929 },
 				{ "name": "y", "value": 0.0625 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "833" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "832"
 		},
 		{
 			"archetype": "DragNote",
@@ -9876,8 +10987,11 @@
 				{ "name": "x", "value": 0.5899999737739563 },
 				{ "name": "y", "value": 0.125 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "834" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "833"
 		},
 		{
 			"archetype": "DragNote",
@@ -9886,8 +11000,11 @@
 				{ "name": "x", "value": 0.6200000047683716 },
 				{ "name": "y", "value": 0.1875 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "835" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "834"
 		},
 		{
 			"archetype": "DragNote",
@@ -9896,8 +11013,11 @@
 				{ "name": "x", "value": 0.6399999856948853 },
 				{ "name": "y", "value": 0.25 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "836" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "835"
 		},
 		{
 			"archetype": "DragNote",
@@ -9906,8 +11026,11 @@
 				{ "name": "x", "value": 0.6499999761581421 },
 				{ "name": "y", "value": 0.3125 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "837" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "836"
 		},
 		{
 			"archetype": "DragNote",
@@ -9916,8 +11039,11 @@
 				{ "name": "x", "value": 0.6299999952316284 },
 				{ "name": "y", "value": 0.375 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "838" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "837"
 		},
 		{
 			"archetype": "DragNote",
@@ -9926,8 +11052,11 @@
 				{ "name": "x", "value": 0.5899999737739563 },
 				{ "name": "y", "value": 0.4375 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "839" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "838"
 		},
 		{
 			"archetype": "DragNote",
@@ -9936,8 +11065,11 @@
 				{ "name": "x", "value": 0.550000011920929 },
 				{ "name": "y", "value": 0.5 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "840" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "839"
 		},
 		{
 			"archetype": "DragNote",
@@ -9946,8 +11078,11 @@
 				{ "name": "x", "value": 0.5199999809265137 },
 				{ "name": "y", "value": 0.5625 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "841" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "840"
 		},
 		{
 			"archetype": "DragNote",
@@ -9956,8 +11091,11 @@
 				{ "name": "x", "value": 0.550000011920929 },
 				{ "name": "y", "value": 0.625 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "842" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "841"
 		},
 		{
 			"archetype": "DragNote",
@@ -9966,8 +11104,11 @@
 				{ "name": "x", "value": 0.5899999737739563 },
 				{ "name": "y", "value": 0.6875 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "843" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "842"
 		},
 		{
 			"archetype": "DragNote",
@@ -9976,8 +11117,11 @@
 				{ "name": "x", "value": 0.6399999856948853 },
 				{ "name": "y", "value": 0.75 },
 				{ "name": "direction", "value": -1 },
-				{ "name": "speed", "value": 1 }
-			]
+				{ "name": "speed", "value": 1 },
+				{ "name": "nextRef", "ref": "-1" },
+				{ "name": "type", "value": 1 }
+			],
+			"ref": "843"
 		}
 	]
 }

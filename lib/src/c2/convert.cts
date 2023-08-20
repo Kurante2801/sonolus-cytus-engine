@@ -1,5 +1,5 @@
 import { EngineArchetypeDataName, EngineArchetypeName, LevelData, LevelDataEntity } from "sonolus-core";
-import { Cytus2Source, Note } from "./index.cjs";
+import { Cytus2Source, DragType, Note, NoteType } from "./index.cjs";
 
 export function cytus2toLevelData(chart: Cytus2Source): LevelData {
 	const entities: LevelDataEntity[] = [
@@ -74,19 +74,19 @@ export function cytus2toLevelData(chart: Cytus2Source): LevelData {
 		return tempo >= 1.367 ? 1 : 1.367 / tempo;
 	};
 
-	const types = ["TapNote", "HoldStartNote", "LongHoldStartNote", "DragNote", "DragNote", "FlickNote", "TapNote", "DragNote"];
+	const types = ["TapNote", "HoldStartNote", "LongHoldStartNote", "DragNote", "DragNote", "FlickNote", "TapNote", "DragTapChildNote"];
 
-	/*const dragTypes = {
+	const dragTypes = {
 		[NoteType.DRAG_HEAD]: DragType.DRAG_HEAD,
 		[NoteType.DRAG_CHILD]: DragType.DRAG_CHILD,
 		[NoteType.TAP_DRAG_CHILD]: DragType.TAP_DRAG_CHILD,
-	};*/
+	};
 
 	for (const note of chart.note_list) {
 		if (note.page_index >= chart.page_list.length || !(note.type in types)) continue;
 		const page = chart.page_list[note.page_index];
 
-		const ref: string | undefined = undefined;
+		let ref: string | undefined = undefined;
 
 		const data: Record<string, string | number> = {
 			[EngineArchetypeDataName.Beat]: tickToTime(note.tick),
@@ -95,6 +95,22 @@ export function cytus2toLevelData(chart: Cytus2Source): LevelData {
 			direction: page.scan_line_direction,
 			speed: note.page_index == 0 ? 1 : calculateNoteSpeed(note),
 		};
+
+		switch (note.type) {
+			case NoteType.DRAG_HEAD:
+			case NoteType.DRAG_CHILD:
+			case NoteType.TAP_DRAG_HEAD:
+			case NoteType.TAP_DRAG_CHILD:
+				// Add information to drag notes
+				ref = note.id.toString();
+				data.nextRef = note.next_id.toString();
+				data.direction = page.scan_line_direction * (note.is_forward ? -1 : 1);
+
+				// Flip direction if is_forward is used
+				if (note.is_forward) data.y = unlerp(page.end_tick, page.start_tick, note.tick);
+				if (note.type !== NoteType.TAP_DRAG_HEAD) data.type = dragTypes[note.type];
+				break;
+		}
 
 		addEntity(types[note.type], data, ref);
 	}
