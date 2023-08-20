@@ -7,6 +7,12 @@ export class Initialization extends Archetype {
 			if ("globalPreprocess" in archetype) archetype.globalPreprocess();
 		}
 
+		score.base.set({
+			perfect: 1,
+			great: 0.8,
+			good: 0.5,
+		});
+
 		// https://github.com/NonSpicyBurrito/sonolus-voez-engine/blob/6ab6fa91aedc2de57d806ad6a49527bd7e943d9c/src/engine/data/archetypes/Initialization.mts#L34
 		const gap = 0.05;
 		const uiRect = new Rect({
