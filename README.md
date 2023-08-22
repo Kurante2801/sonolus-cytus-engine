@@ -1,4 +1,45 @@
-# Sonolus.js Template (TS + ESLint + Prettier)
+# Sonolus Cytus Engine
+
+Made for [Sonolus](https://sonolus.com/) using [sonolus.js-template-ts-eslint-prettier](https://github.com/Sonolus/sonolus.js-template-ts-eslint-prettier)
+
+Skin available at [Kurante2801/sonolus-cytus2-skin](https://github.com/Kurante2801/sonolus-cytus2-skin). Tutorial mode not included, no ETA.
+
+## Custom Resources
+
+### Skin Sprites
+
+| Name                              |
+| --------------------------------- |
+| `Cytus Tap Up`                    |
+| `Cytus Tap Down`                  |
+| `Cytus Hold Up`                   |
+| `Cytus Hold Down`                 |
+| `Cytus Hold Bar`                  |
+| `Cytus Hold Bar Up`               |
+| `Cytus Hold Bar Down`             |
+| `Cytus Long Hold`                 |
+| `Cytus Long Hold Bar`             |
+| `Cytus Hold Indicator Background` |
+| `Cytus Long Hold Indicator`       |
+| `Cytus Drag Up`                   |
+| `Cytus Drag Down`                 |
+| `Cytus Drag Child Up`             |
+| `Cytus Drag Child Down`           |
+| `Cytus Drag Tap Up`               |
+| `Cytus Drag Tap Down`             |
+| `Cytus Drag Tap Child Up`         |
+| `Cytus Drag Tap Child Down`       |
+| `Cytus Flick Up`                  |
+| `Cytus Flick Down`                |
+| `Cytus Flick Arrow`               |
+
+## Module functions
+
+### `cytus2toLevelData(chart)`
+
+Converts a Cytus 2 Source to Sonolus Level Data
+
+-   `chart`: [Cytus2Source](lib/src/c2/index.cts)
 
 ## Prerequisites
 
